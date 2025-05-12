@@ -15,7 +15,7 @@ class Tiles extends StatelessWidget {
               "assets/images/editprofile.png",
               height: context.screenHeight * 0.05,
             ),
-            title: const Text('EditProfile'),
+            title: const Text('Edit Profile'),
             onTap: () {},
           ),
         ),
