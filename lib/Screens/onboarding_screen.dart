@@ -1,6 +1,7 @@
 import 'package:capstone1/CustomWidgets/OnboardingScreen/onboarding_view.dart';
+import 'package:capstone1/CustomWidgets/white_container.dart';
 import 'package:capstone1/Helpers/screen_extinsion.dart';
-import 'package:capstone1/Screens/nav_bar.dart';
+import 'package:capstone1/Screens/login_screen.dart';
 import 'package:capstone1/Styling/colors.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
@@ -52,16 +53,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             Spacer(),
             Align(
               alignment: Alignment.center,
-              child: Container(
-                height: context.screenHeight * 0.7,
-                width: context.screenWidth,
-                decoration: BoxDecoration(
-                  color: backgroundGreenwhite,
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(context.screenHeight * 0.06),
-                    topRight: Radius.circular(context.screenHeight * 0.06),
-                  ),
-                ),
+              child: WhiteContainer(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
@@ -85,7 +77,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         if (_currentPage == _views.length - 1) {
                           Navigator.pushReplacement(
                             context,
-                            MaterialPageRoute(builder: (context) => NavBar()),
+                            MaterialPageRoute(
+                              builder: (context) => LoginScreen(),
+                            ),
                           );
                         } else {
                           _pageController.nextPage(
