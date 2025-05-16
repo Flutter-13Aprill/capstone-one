@@ -1,0 +1,31 @@
+{
+  "change_language": "Change Language",
+  "hello_saja": "Hello Saja",
+  "menu": "Menu",
+  "notifications": "Notifications",
+  "settings": "Settings",
+  "logout": "Log out",
+  "how_do_you_feel_today": "How do you feel today?",
+  "you_are_feeling_curious": "You are feeling curious!",
+  "you_are_feeling_angry": "You are feeling angry!",
+  "you_are_feeling_nervous": "You are feeling nervous!",
+  "you_are_feeling_loving": "You are feeling loving!",
+  "you_are_feeling_sad": "You are feeling sad!",
+  "do_you_want_to_add_to_mood_tracker": "Do you want to add that to your mood tracker?",
+  "cancel": "Cancel",
+  "ok": "Ok",
+  "active": "Active",
+  "pending": "Pending",
+  "saved": "Saved",
+  "add_new_list": "Add new list",
+  "no_pending_tasks": "No pending tasks!",
+  "no_saved_tasks": "No saved tasks!",
+  "claim_reward": "Claim Reward",
+  "share_list": "Share List",
+  "copy_shareable_link": "Copy Shareable Link",
+  "share_via_email": "Share via Email",
+  "share_via_social_media": "Share via Social Media"
+
+}
+
+
