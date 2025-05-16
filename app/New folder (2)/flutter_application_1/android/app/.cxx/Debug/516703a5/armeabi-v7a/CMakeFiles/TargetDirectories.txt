@@ -1,2 +1,0 @@
-D:/tuwaiq/app/New folder (2)/flutter_application_1/android/app/.cxx/Debug/516703a5/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/tuwaiq/app/New folder (2)/flutter_application_1/android/app/.cxx/Debug/516703a5/armeabi-v7a/CMakeFiles/rebuild_cache.dir

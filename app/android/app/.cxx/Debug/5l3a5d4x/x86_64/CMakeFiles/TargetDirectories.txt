@@ -1,2 +1,0 @@
-D:/tuwaiq/porojects/week5/capstone-one/app/android/app/.cxx/Debug/5l3a5d4x/x86_64/CMakeFiles/edit_cache.dir
-D:/tuwaiq/porojects/week5/capstone-one/app/android/app/.cxx/Debug/5l3a5d4x/x86_64/CMakeFiles/rebuild_cache.dir
