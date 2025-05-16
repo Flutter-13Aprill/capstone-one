@@ -180,6 +180,13 @@ class CustomTheme {
   ///
 
   static final darkTheme = ThemeData(
+       bottomSheetTheme:BottomSheetThemeData(
+        backgroundColor: StyleColor.primaryBlackColor,
+        shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20.0)),
+      ),
+       ),
+
     scaffoldBackgroundColor: StyleColor.primaryBlackColor,
     colorScheme: ColorScheme.fromSwatch().copyWith(
       primary: StyleColor.primaryBlackColor,
@@ -316,11 +323,7 @@ class CustomTheme {
         color: StyleColor.primaryWhiteColor,
       ),
     ),
-    bottomSheetTheme: BottomSheetThemeData(
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20.0)),
-      ),
-    ),
+    
     iconTheme: IconThemeData(color: StyleColor.primaryWhiteColor),
     listTileTheme: ListTileThemeData(
       //selectedColor: StyleColor.primaryTaupeColor,
@@ -345,4 +348,4 @@ class CustomTheme {
       
     )
   );
-}
+ }

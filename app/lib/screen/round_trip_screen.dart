@@ -1,3 +1,4 @@
+import 'package:app/controllar/second_fly_result_controllars.dart';
 import 'package:app/screen/flight_result_screen.dart';
 import 'package:app/screen/second_flight_result_screen.dart';
 import 'package:app/screen/widgets/button/button.dart';
@@ -16,14 +17,17 @@ class RoundTripScreen extends StatefulWidget {
   State<RoundTripScreen> createState() => _RoundTripScreenState();
 }
 
+SecondFlyResultControllars secondFlyResultControllars =
+    SecondFlyResultControllars();
+
 class _RoundTripScreenState extends State<RoundTripScreen> {
   // Stores the varibles from secnd and first trip
-  String? departureCity;
-  String? arrivalCity;
+  late String departureCity;
+  late String arrivalCity;
   DateTime selectedDate = DateTime.now();
   int passengerCount = 1;
-  String? departureCitySecondRound;
-  String? arrivalCitySecondRound;
+  late String departureCitySecondRound;
+  late String arrivalCitySecondRound;
   DateTime selectedDateSecondRound = DateTime.now();
   int passengerCountSecondRound = 1;
   void _onDepartureCitySelected(String city) {
@@ -130,9 +134,12 @@ class _RoundTripScreenState extends State<RoundTripScreen> {
           ),
 
           DatePickerWidget(
-            onChosseDate: _onDateSelected,  // Callback when a date is selected for the first trip.
+            onChosseDate:
+                _onDateSelected, // Callback when a date is selected for the first trip.
           ),
-          PassengerCounter(onChanged: _onPassengerCountChanged),// Widget to select the number of passengers for the first trip.
+          PassengerCounter(
+            onChanged: _onPassengerCountChanged,
+          ), // Widget to select the number of passengers for the first trip.
 
           SizedBox(height: 16),
           Container(
@@ -171,21 +178,19 @@ class _RoundTripScreenState extends State<RoundTripScreen> {
             child: FlyChosseBtton(
               title: "booknow",
               onPressed: () {
+                secondFlyResultControllars.arrivalCity = arrivalCity;
+                secondFlyResultControllars.selectedDate = selectedDate;
+                secondFlyResultControllars.departureCity = departureCity;
+                secondFlyResultControllars.passengerCount = passengerCount;
+                flyContrlollr.arrivalCity = arrivalCitySecondRound;
+                flyContrlollr.selectedDate = selectedDateSecondRound;
+                flyContrlollr.departureCity = departureCitySecondRound;
+                flyContrlollr.passengerCount = passengerCountSecondRound;
                 //Navigat to SecondFlightResultScreen
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder:
-                        (context) => SecondFlightResultScreen(
-                          selectedDate: selectedDate,
-                          arrivalCity: arrivalCity,
-                          departureCity: departureCity,
-                          passengerCount: passengerCount,
-                          selectedDateSecondRound: selectedDateSecondRound,
-                          arrivalCitySecondRound: arrivalCitySecondRound,
-                          departureCitySecondRound: departureCitySecondRound,
-                          passengerCountSecondRound: passengerCountSecondRound,
-                        ),
+                    builder: (context) => SecondFlightResultScreen(),
                   ),
                 );
               },
@@ -196,4 +201,3 @@ class _RoundTripScreenState extends State<RoundTripScreen> {
     );
   }
 }
- 

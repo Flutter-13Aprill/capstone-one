@@ -15,56 +15,58 @@ class OneWayScreen extends StatefulWidget {
 }
 
 class _OneWayScreenState extends State<OneWayScreen> {
-   // Stores the selected varibles.
+  // Stores the selected varibles.
 
-  String? departureCity;
-  String? arrivalCity;
-  DateTime selectedDate = DateTime.now(); // Stores the selected date, initialized to the current date.
+  String departureCity = "";
+  String arrivalCity = "";
+  DateTime selectedDate =
+      DateTime.now(); // Stores the selected date, initialized to the current date.
   int passengerCount = 1; // Stores the selected departure city.
-
 
   void _onDepartureCitySelected(String city) {
     setState(() {
-       departureCity = city;// Updates the departure city.
-     });
+      departureCity = city; // Updates the departure city.
+    });
   }
 
   void _onArrivalCitySelected(String city) {
     setState(() {
-      arrivalCity = city;// Updates the arrival city.
+      arrivalCity = city; // Updates the arrival city.
     });
   }
 
   void _onDateSelected(DateTime date) {
-    setState(() {// Updates the selectedDate
+    setState(() {
+      // Updates the selectedDate
       selectedDate = date;
-     });
+    });
   }
 
   void _onPassengerCountChanged(int count) {
     setState(() {
-      passengerCount = count;// Updates the selectedDate
-     });
+      passengerCount = count; // Updates the selectedDate
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            //custom widgets 
+            //custom widgets
             CityiesDropdownMenu(
-              whereLocationKey: "from",//give it rom 
-              onCitySelected: _onDepartureCitySelected,//call _onDepartureCitySelected
+              whereLocationKey: "from", //give it rom
+              onCitySelected:
+                  _onDepartureCitySelected, //call _onDepartureCitySelected
             ),
             CityiesDropdownMenu(
               whereLocationKey: "to",
               onCitySelected: _onArrivalCitySelected,
             ),
-            SizedBox(height: 8),//add space
+            SizedBox(height: 8), //add space
             Padding(
               padding: const EdgeInsets.only(left: 20.0, top: 16),
               child: Text(
@@ -73,36 +75,36 @@ class _OneWayScreenState extends State<OneWayScreen> {
               ),
             ),
 
-            DatePickerWidget(//call DatePickerWidget
+            DatePickerWidget(
+              //call DatePickerWidget
               onChosseDate:
                   _onDateSelected, // Pass the _onDateSelected function
             ),
-             //call custom wigets 
+            //call custom wigets
             PassengerCounter(onChanged: _onPassengerCountChanged),
-             //calll FlyChosseBtton 
+            //calll FlyChosseBtton
             FlyChosseBtton(
               title: "booknow",
               onPressed: () {
-                //testi 
-               // print("selectedDate:$selectedDate");
-               // print("arrivalCity:$arrivalCity");
-               // print("departureCity:$departureCity");
+                //testi
+                // print("selectedDate:$selectedDate");
+                // print("arrivalCity:$arrivalCity");
+                // print("departureCity:$departureCity");
                 //print("passengerCount:$passengerCount");
-                Navigator.push(//Navigatat to the page and give it atrbutes 
+                //add values to controllar 
+                flyContrlollr.arrivalCity = arrivalCity;
+                flyContrlollr.selectedDate = selectedDate;
+                flyContrlollr.departureCity = departureCity;
+                flyContrlollr.passengerCount = passengerCount;
+
+                Navigator.push(
+                  //Navigatat to the page and give it atrbutes
                   context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) => FlightResultScreen(
-                          selectedDate: selectedDate,
-                          arrivalCity: arrivalCity,
-                          departureCity: departureCity,
-                          passengerCount: passengerCount,
-                        ),
-                  ),
+                  MaterialPageRoute(builder: (context) => FlightResultScreen()),
                 );
               },
             ),
-           ],
+          ],
         ),
       ),
     );

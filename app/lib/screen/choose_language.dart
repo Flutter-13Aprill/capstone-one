@@ -1,3 +1,4 @@
+import 'package:app/controllar/choose_language_contollar.dart';
 import 'package:app/extension/Screen/get_size_screen.dart';
 import 'package:app/screen/bottom_navigation_bar_screen.dart';
 import 'package:app/screen/login_screen.dart';
@@ -14,8 +15,7 @@ class ChooseLanguage extends StatefulWidget {
 }
 
 class _ChooseLanguageState extends State<ChooseLanguage> {
-  String userLangauge =
-      "en"; // Stores the currently selected language code (default is English).
+  ChooseLanguageContollar languageContollar = ChooseLanguageContollar();
 
   @override
   Widget build(BuildContext context) {
@@ -75,11 +75,11 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
               ),
 
               value: "en", // Value associated with this radio button.
-              groupValue: userLangauge, // The currently selected language.
+              groupValue: languageContollar.userLangauge, // The currently selected language.
               onChanged: (value) {
                 // Callback when this radio button is selected.
                 setState(() {
-                  userLangauge = value!; // Update the selected language.
+                  languageContollar.userLangauge = value!; // Update the selected language.
                 });
               },
             ),
@@ -99,11 +99,11 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
               ),
 
               value: "ar", // Value associated with this radio button.
-              groupValue: userLangauge, // The currently selected language.
+              groupValue: languageContollar.userLangauge, // The currently selected language.
               onChanged: (value) {
                 // Callback when this radio button is selected.
                 setState(() {
-                  userLangauge = value!; // Update the selected language.
+                  languageContollar.userLangauge = value!; // Update the selected language.
                 });
               },
             ),
@@ -112,7 +112,7 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
           ChaneLangaugeButton(
             pageToGo:
                 LoginScreen(), // The screen to navigate to after choosing language.
-            userLangauge: userLangauge, // The selected user language.s
+            userLangauge: languageContollar.userLangauge, // The selected user language.s
           ),
         ],
       ),

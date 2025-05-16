@@ -5,35 +5,15 @@ import 'package:app/controllar/resvervation_result_controllar.dart';
 import 'package:app/extension/Screen/get_size_screen.dart';
 import 'package:app/main.dart';
 import 'package:app/screen/flight_result_screen.dart';
+import 'package:app/screen/round_trip_screen.dart';
 import 'package:app/screen/widgets/container/container_choose_tiket.dart';
 import 'package:app/screen/widgets/container/container_shimmer.dart';
 import 'package:app/theme/style_color.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
-
+ 
 class SecondFlightResultScreen extends StatefulWidget {
-  //declare varible
-  final String? departureCity;
-  final String? arrivalCity;
-  final int passengerCount;
-  final DateTime selectedDate;
-  final String? departureCitySecondRound;
-  final String? arrivalCitySecondRound;
-  final int passengerCountSecondRound;
-  final DateTime? selectedDateSecondRound;
-  //constractor  initialize variable
-  SecondFlightResultScreen({
-    super.key,
-    required this.departureCity,
-    required this.arrivalCity,
-    required this.passengerCount,
-    required this.selectedDate,
-    this.departureCitySecondRound,
-    this.arrivalCitySecondRound,
-    this.passengerCountSecondRound = 1,
-    this.selectedDateSecondRound,
-  });
+  SecondFlightResultScreen({super.key});
 
   @override
   State<SecondFlightResultScreen> createState() =>
@@ -107,16 +87,22 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
               ),
               //display details
               const SizedBox(height: 16.0),
-              Text('${'from'.tr()}:${widget.departureCity}'),
-              Text('${'to'.tr()}: ${widget.arrivalCity}'),
-              Text('${'departure_date'.tr()}:${widget.selectedDate}'),
+              Text(
+                '${'from'.tr()}:${secondFlyResultControllars.departureCity}',
+              ),
+              Text('${'to'.tr()}: ${secondFlyResultControllars.arrivalCity}'),
+              Text(
+                '${'departure_date'.tr()}:${secondFlyResultControllars.selectedDate}',
+              ),
               Text('${'departure_time'.tr()}:${"departure_time1".tr()}'),
               Text('${'arrival_date'.tr()}: ${"arrival_date1".tr()}'),
               Text('${'arrival_time'.tr()}:${"arrival_time1".tr()}'),
               Text('${'airline'.tr()}:emiratesairline'.tr()),
               Text('${'flight_number'.tr()}:${"flight_number2".tr()}'),
               Text('${'price'.tr()}: 12500 SAR'.tr()),
-              Text('${'passengerCount'.tr()}: ${widget.passengerCount}'),
+              Text(
+                '${'passengerCount'.tr()}: ${secondFlyResultControllars.passengerCount}',
+              ),
             ],
           ),
         );
@@ -129,32 +115,24 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
 
     List userResrvation = [
       // Handles the action when a ticket container is double-tapped.
-      widget.departureCity,
-      widget.arrivalCity,
-      widget.passengerCount,
-      widget.selectedDate,
+      secondFlyResultControllars.departureCity,
+      secondFlyResultControllars.arrivalCity,
+      secondFlyResultControllars.passengerCount,
+      secondFlyResultControllars.selectedDate,
     ];
-     //add to list 
+    //add to list
     ResvervationResultControllar.reservationResult.add(userResrvation);
-    //navigat to FlightResultScreen 
+    //navigat to FlightResultScreen
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder:
-            (context) => FlightResultScreen(
-              selectedDate: widget.selectedDateSecondRound ?? DateTime(2025),
-              departureCity: widget.departureCitySecondRound,
-              arrivalCity: widget.arrivalCitySecondRound,
-              passengerCount: widget.passengerCountSecondRound,
-            ),
-      ),
+      MaterialPageRoute(builder: (context) => FlightResultScreen()),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("SelectFlight".tr())),//display appBar
+      appBar: AppBar(title: Text("SelectFlight".tr())), //display appBar
 
       body: ListView(
         children: [
@@ -162,21 +140,24 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
             children: [
               SizedBox(height: 20),
               Row(
-                 children: [
+                children: [
                   Text(
-                    widget.departureCity.toString(), //departureCity and theme depend on isDarkThem
+                    secondFlyResultControllars.departureCity
+                        .toString(), //departureCity and theme depend on isDarkThem
                     style:
                         isDarkThem
                             ? Theme.of(context).textTheme.titleSmall
                             : Theme.of(context).textTheme.headlineSmall,
                   ),
-                  SizedBox(//add image 
+                  SizedBox(
+                    //add image
                     height: context.getHeigth() * .05,
                     width: context.getWidth() * .59,
                     child: Image.asset("assets/images/6.png"),
                   ),
                   Text(
-                    widget.arrivalCity.toString(), //arrivalCity and theme depend on isDarkThem
+                    secondFlyResultControllars.arrivalCity
+                        .toString(), //arrivalCity and theme depend on isDarkThem
                     style:
                         isDarkThem
                             ? Theme.of(context).textTheme.titleSmall
@@ -185,26 +166,28 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
                 ],
               ),
               Text(
-                "FlightSchedule".tr(),//FlightSchedule and theme depend on isDarkThem
+                "FlightSchedule"
+                    .tr(), //FlightSchedule and theme depend on isDarkThem
                 style: Theme.of(context).textTheme.headlineLarge,
               ),
-              Text(//selectedDate and theme depend on isDarkThem
-                widget.selectedDate.toString(),
+              Text(
+                //selectedDate and theme depend on isDarkThem
+                secondFlyResultControllars.selectedDate.toString(),
                 style: Theme.of(context).textTheme.titleSmall,
               ),
-              SizedBox(height: 16),//space
-              isShimmer//dispaly ContainerShimmer when isShimmer true otherwise InkWell
+              SizedBox(height: 16), //space
+              isShimmer //dispaly ContainerShimmer when isShimmer true otherwise InkWell
                   ? ContainerShimmer()
                   : InkWell(
-                    onDoubleTap: onDoubleTapTickit,//call onDoubleTapTickit
+                    onDoubleTap: onDoubleTapTickit, //call onDoubleTapTickit
                     onTap: () {
-                      showTicketDetials();//call showTicketDetials
+                      showTicketDetials(); //call showTicketDetials
                     },
                     child: ContainerChooseTiket(
-                      passengerCount: widget.passengerCount,
+                      passengerCount: secondFlyResultControllars.passengerCount,
 
-                      departureCity: widget.departureCity,
-                      arrivalCity: widget.arrivalCity,
+                      departureCity: secondFlyResultControllars.departureCity,
+                      arrivalCity: secondFlyResultControllars.arrivalCity,
                     ),
                   ),
               SizedBox(height: 16),
@@ -214,10 +197,10 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
                   : InkWell(
                     onDoubleTap: onDoubleTapTickit,
                     child: ContainerChooseTiket(
-                      passengerCount: widget.passengerCount,
+                      passengerCount: secondFlyResultControllars.passengerCount,
 
-                      departureCity: widget.departureCity,
-                      arrivalCity: widget.arrivalCity,
+                      departureCity: secondFlyResultControllars.departureCity,
+                      arrivalCity: secondFlyResultControllars.arrivalCity,
                     ),
                     onTap: () {
                       showTicketDetials();
@@ -228,10 +211,10 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
                   ? ContainerShimmer()
                   : InkWell(
                     child: ContainerChooseTiket(
-                      passengerCount: widget.passengerCount,
+                      passengerCount: secondFlyResultControllars.passengerCount,
 
-                      departureCity: widget.departureCity,
-                      arrivalCity: widget.arrivalCity,
+                      departureCity: secondFlyResultControllars.departureCity,
+                      arrivalCity: secondFlyResultControllars.arrivalCity,
                     ),
                     onTap: () {
                       showTicketDetials();
@@ -243,18 +226,18 @@ class _SecondFlightResultScreenState extends State<SecondFlightResultScreen> {
                   ? ContainerShimmer()
                   : InkWell(
                     child: ContainerChooseTiket(
-                      passengerCount: widget.passengerCount,
-                      departureCity: widget.departureCity,
-                      arrivalCity: widget.arrivalCity,
+                      passengerCount: secondFlyResultControllars.passengerCount,
+                      departureCity: secondFlyResultControllars.departureCity,
+                      arrivalCity: secondFlyResultControllars.arrivalCity,
                     ),
                     onTap: () {
                       showTicketDetials();
                     },
                     onDoubleTap: () {
                       List userResrvation = [
-                        widget.arrivalCity,
-                        widget.passengerCount,
-                        widget.selectedDate,
+                        secondFlyResultControllars.arrivalCity,
+                        secondFlyResultControllars.passengerCount,
+                        secondFlyResultControllars.selectedDate,
                       ];
 
                       ResvervationResultControllar.reservationResult.add(
