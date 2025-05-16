@@ -1,0 +1,1 @@
+ D:\\tuwaiq\\porojects\\week5\\capstone-one\\app\\.dart_tool\\flutter_build\\a7c3c4c44ca4003de68a306bb0b741c4\\native_assets.json: 
