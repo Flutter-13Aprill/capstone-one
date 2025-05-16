@@ -1,0 +1,31 @@
+{
+  "change_language": "تغير اللغة",
+  "hello_saja": "مرحبا سجا",
+  "menu": "القائمة",
+  "notifications": "الإشعارات",
+  "settings": "الإعدادات",
+  "logout": "تسجيل الخروج",
+  "how_do_you_feel_today": "كيف تشعر اليوم؟",
+  "you_are_feeling_curious": "أنت تشعر بالفضول!",
+  "you_are_feeling_angry": "أنت غاضب!",
+  "you_are_feeling_nervous": "أنت تشعر بالتوتر!",
+  "you_are_feeling_loving": "أنت تشعر بالحب!",
+  "you_are_feeling_sad": "أنت تشعر بالحزن!",
+  "do_you_want_to_add_to_mood_tracker": "هل تريد إضافة ذلك إلى متعقب المزاج؟",
+  "cancel": "إلغاء",
+  "ok": "حسناً",
+   "active": "نشط",
+  "pending": "معلق",
+  "saved": "محفوظ",
+  "add_new_list": "أضف قائمة جديدة",
+  "no_pending_tasks": "لا توجد مهام معلقة!",
+  "no_saved_tasks": "لا توجد مهام محفوظة!",
+  "claim_reward": "استلام المكافأة",
+  "share_list": "مشاركة القائمة",
+  "copy_shareable_link": "نسخ الرابط القابل للمشاركة",
+  "share_via_email": "مشاركة عبر البريد الإلكتروني",
+  "share_via_social_media": "مشاركة عبر وسائل التواصل الاجتماعي"
+}
+
+
+
