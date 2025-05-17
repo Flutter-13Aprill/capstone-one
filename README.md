@@ -74,3 +74,13 @@ Taskins uses the following Flutter widgets and components:
 10. Phone Validation
 11. Localization
 
+##  Running the App 🚀
+To run the app locally:
+1. Clone the Repository:
+git clone https://github.com/your-username/taskins.git
+cd taskins
+2. Install Dependencies:
+3. flutter pub get
+4. Run the App:
+5. flutter run
+
