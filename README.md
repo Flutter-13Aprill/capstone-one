@@ -1,77 +1,52 @@
-# capstone one
+ # Zadak – Flutter App to Reduce Food Waste
+
+📱 Overview
+
+Zadak is a community-driven mobile app developed using Flutter that aims to reduce food waste by connecting individuals and restaurants with surplus meals to those in need. The app offers a simple, intuitive, and localized experience for discovering and sharing meals, ensuring excess food finds a home instead of going to waste.
 
 
-## 📝 Overview
+#Idea Behind Zadak
+Food waste is a critical issue globally, and Zadak was built to provide a simple solution to this growing problem. The idea is to empower people and businesses to easily donate extra meals, and help others find them nearby. With just a few taps, users can post, browse, and reserve meals that would otherwise go to waste.
 
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
+# Tech Stack
 
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+Flutter & Dart
+VS Code as IDE
+Packages Used:
+easy_localization
+shimmer
+water_drop_nav_bar
 
----
+## 🚀 How to Run the App
 
-## ✅ Mandatory Requirements
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-repo/zadak.git
+   cd zadak
+2. get dependencies:
+flutter pub get
+3. Run the app:
+flutter run
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
+ 
+ Additional Notes
+ Designed with accessibility and RTL language support in mind.
+UI inspired by real-world donation platforms and minimalist design principles.
+The app can be extended with real-time location tracking and notifications in the future.
 
-## 📌 Guidelines
+##  Video Demo
 
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
+👉 [Click here to watch the video demo](https://drive.google.com/file/d/1fnRFo2q8iupYr39bBAL2LNVkLcWVWbPm/view?usp=share_link)
 
----
 
-## 📤 Submission Requirements
 
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
+ Author
 
-### 🧾 README File (Documentation)
-Your `README.md` should include:
+Developed by Manaalq
+Github : manaalq 
 
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
 
----
 
-## 🧰 Resources
 
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
 
----
-
-## ⏰ Deadline
-
-**Submit your project by May 18, before 10:00 AM.**
-
----
-
-## ✨ Final Note
-
-> "Good luck, and have fun creating your app!" 🎨📱
 
