@@ -58,3 +58,19 @@ An app designed to help you destress by tracking your mood and breaking down you
 1. Mood Tracking: Keep track of your mood with a simple, user-friendly interface.
 2. AI-Powered To-Do Breakdown: Automatically break down broad tasks into manageable subtasks.
 3. Personalization: Supports themes, localization, and customizable task lists for a personalized experience.
+
+
+## Widgets Used 🛠️
+Taskins uses the following Flutter widgets and components:
+1. Drawer
+2. Alert Dialog
+3. Text Field
+4. Navigation between Views
+5. Bottom Navigation Bar
+6. Bottom Sheet
+7. Tab Bar View and Tab Bar
+8. Page View
+9. Themes
+10. Phone Validation
+11. Localization
+
