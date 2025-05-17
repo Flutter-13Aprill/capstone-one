@@ -39,23 +39,43 @@ The **Flight Companion App** is a convenient solution for seamless flight planni
 2. Ensure you have an IDE like Android Studio or Visual Studio Code.
 3. Set up an emulator or physical device for testing.
 
-### Steps:
+### Steps:![11](https://github.com/user-attachments/assets/5fa1c242-b878-44c6-a653-b4a250843025)
+
 1. Clone the repository:  
    ```bash
    git clone  https://github.com/BushraAljuwair/capstone-one.git
 the run flutter pub get
+flutter run 
 
-![13](https://github.com/user-attachments/assets/b99eaa30-9a2d-45b9-b5ec-d28f80706efe)
-![12](https://github.com/user-attachments/assets/84d9ae37-e4f8-4a30-850b-ad4aba01396b)
-![11](https://github.com/user-attachments/assets/34a73989-e283-492f-86e7-086bee9eb572)
-![10](https://github.com/user-attachments/assets/58fe31c4-8d6f-439b-93ae-636f112ff8bf)
-![9](https://github.com/user-attachments/assets/9cca1f6f-43a5-40b9-9d72-1d2cb751764e)
-![8](https://github.com/user-attachments/assets/a7b6c310-511e-4fc1-b20d-6d15cc062890)
-![14](https://github.com/user-attachments/assets/d226e79c-f0ef-4c8b-9b4b-de5650917b88)
-![6](https://github.com/user-attachments/assets/acd0f563-14dc-4802-9275-ee31ce5d2f16)
-![5](https://github.com/user-attachments/assets/fa566c29-9170-4f00-be79-3f37a09e3ea2)
-![4](https://github.com/user-attachments/assets/30ff7c64-8cb9-4849-910d-9a54986fb144)
-![3](https://github.com/user-attachments/assets/b949ae97-4717-4b04-994c-3d3ba0ba1233)
-![2](https://github.com/user-attachments/assets/942c7b2f-6d67-4910-89fc-23a866605988)
-![1](https://github.com/user-attachments/assets/e9c07dd0-e5b5-4899-80d0-3f637c816af1)
-![7](https://github.com/user-attachments/assets/0d3a4b7e-c021-4d80-b28b-6bddc92d2aec)
+
+
+
+![3](https://github.com/user-attachments/assets/52eda8b2-9440-4116-abf4-af89ce0bfdcd)
+![2](https://github.com/user-attachments/assets/e7f742b7-7496-4ee1-9182-9d19497c1457)
+![1](https://github.com/user-attachments/assets/db72b3da-8930-4087-bfdd-865e5fa8c5fd)
+![7](https://github.com/user-attachments/assets/f12da29a-7dd8-47c2-9957-53389eec8303)
+![6](https://github.com/user-attachments/assets/517bd65e-3276-462c-8b2b-6182aa425ae6)
+![5](https://github.com/user-attachments/assets/3c32267e-8b02-4fd9-888c-887ada76a23f)
+![4](https://github.com/user-attachments/assets/891514bf-7947-41b1-91d8-47af78023aaa)
+
+
+![10](https://github.com/user-attachments/assets/f02eaafa-4f7a-4859-938e-4427da844389)
+![9](https://github.com/user-attachments/assets/ae2b97b7-9c15-408e-9438-581b2a984177)
+![8](https://github.com/user-attachments/assets/4c9e4574-4b34-41c3-b2da-0b17236b3736)
+![21](https://github.com/user-attachments/assets/bddc6f84-1664-4d2b-981e-8626acf59922)
+![20](https://github.com/user-attachments/assets/9412e018-b469-4d75-851d-954e86294123)
+![19](https://github.com/user-attachments/assets/8ad8db4a-afd9-4883-a0ea-4155143ef1d9)
+![18](https://github.com/user-attachments/assets/6c5ee2ae-09d9-4fc5-b26d-b8f541e2ad12)
+![17](https://github.com/user-attachments/assets/30eed6c9-0a62-40c7-8b3a-a599c64a8c73)
+![16](https://github.com/user-attachments/assets/e2016b74-7a09-403b-8df4-6c89ef2a4a46)
+![15](https://github.com/user-attachments/assets/b0febd0e-f770-4a59-ba16-f38ec129ca7d)
+![14](https://github.com/user-attachments/assets/393eb95b-381d-44a6-9675-f6bb82fed5f4)
+![13](https://github.com/user-attachments/assets/2ec4583f-6ce5-47b2-a07d-37bcf631a85a)
+![12](https://github.com/user-attachments/assets/2a0be7f5-41ac-430c-99e5-cfc671fc1e57)
+![11](https://github.com/user-attachments/assets/95129dd5-81f5-49e8-909e-06c461a6069b)
+
+
+
+ 
+
+
