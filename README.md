@@ -1,77 +1,84 @@
-# capstone one
+![image alt](https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png)
+
+# 📘 Riyadh Transportation App — Overview
+
+The app provides users with transportation-related services focused on Riyadh city, including bus and metro schedules, favorites management, map viewing, and user authentication.
+
+## 📷 Screenshots
+
+![image alt](https://github.com/azizotbb/capstone-one/blob/e21b00f70a2800532ad589376df6a0416772cced/img.jpg)
 
 
-## 📝 Overview
+## 🔍 Features
 
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
+1. **Splash Screen:**
 
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+   - Displays the app logo and navigates to the login screen after a delay.
 
----
+2. **Authentication:**
 
-## ✅ Mandatory Requirements
+   - Sign In screen with email and password validation.
+   - Sign Up screen for new user registration with form validation.
+   - Localization support for multi-language (Arabic and English).
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
+3. **Main Navigation:**
 
-## 📌 Guidelines
+   - Uses a curved bottom navigation bar to switch between three primary screens:
+   - Favorites (Bus and Metro favorites)
+   - Map (Displays an image map of Riyadh transit system)
+   - Search (Search for bus stations and lines)
 
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
+4. **Favorites Screen:**
 
----
+   - Tabbed layout to toggle between favorite buses and metros.
+   - Displays favorite bus or metro lines saved by the user.
 
-## 📤 Submission Requirements
+5. **Search Screen**
 
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
+   - Real-time searching/filtering of bus stations.
+   - Allows marking/unmarking buses as favorites from the search results.
 
-### 🧾 README File (Documentation)
-Your `README.md` should include:
+6. **Settings Screen:**
+   - Options to enable notifications, change language (English/Arabic), and logout.
+   - Localization support for all UI text.
 
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
+## 📦 Packages
 
----
+`easy_localization`
+`curved_navigation_bar`
 
-## 🧰 Resources
+## Tech Stack
 
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
+- Flutter (latest version)
+- Dart
 
----
+## Installation
 
-## ⏰ Deadline
+1.  Clone the repository:
 
-**Submit your project by May 18, before 10:00 AM.**
+    `https://github.com/azizotbb/capstone-one.git`
 
----
+2.  Navigate to the project folder:
 
-## ✨ Final Note
+    `cd riyadh_transportation`
 
-> "Good luck, and have fun creating your app!" 🎨📱
+3.  Install dependencies:
 
+    `flutter pub get`
+
+4.  Run the app:
+
+    `flutter run`
+
+## Folder Structure
+
+    lib/
+    ├── controller/
+    ├── screens/
+    ├── style/
+    ├── widgets/
+    └── main.dart
+
+## ✨ Author
+
+- AbdulAziz Alotaibi
