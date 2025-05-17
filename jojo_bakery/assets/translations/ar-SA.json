@@ -1,0 +1,53 @@
+{
+  "drawer": {
+    "store_name": "مخبوزات الجوجو",
+    "about_store": "حول المتجر",
+    "terms_conditions": "الشروط والأحكام",
+    "order_details": "تفاصيل الطلبات",
+    "change_language": "تغيير اللغة"
+  },
+  "app_bar": {
+    "title": "مخبوزات الجوجو"
+  },
+  "search": {
+    "hint": "ابحث عن منتج"
+  },
+  "home": {
+    "slogan": "نخبز لك لحظات\nمن السعادة ..",
+    "categories": {
+      "all": "الكل",
+      "baguette": "باجيت",
+      "croissant": "كروسان",
+      "cookies": "كوكيز",
+      "coffee": "قهوه"
+    },
+    "featured": {
+      "title": "مخبوزات مميزه",
+      "see_all": "مشاهدة الكل"
+    },
+    "recommended": {
+      "title": "موصى بها",
+      "see_all": "مشاهدة الكل"
+    },
+    "added_to_cart": "أُضيف إلى السلة"
+  },
+  "products": {
+    "croissant_chocolate": "كروسان شوكلت",
+    "babka_chocolate": "بابكا شوكلت",
+    "babka_thyme": "بابكا زعتر",
+    "sourdough": "ساوردو",
+    "cheesecake": "تشيز كيك",
+    "chocolate_cake": "كيك شوكلت"
+  },
+  "pay_page": {
+    "app_bar": {
+      "title": "صفحة الدفع"
+    },
+    "section_header": {
+      "title": "سلة مشترياتك"
+    },
+    "button": {
+      "pay_now": "ادفع الآن"
+    }
+  }
+}
