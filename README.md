@@ -44,14 +44,8 @@
 ---
 
 ### Row 7:
-| Celebration Video |
-| ----------------- |
-| ![Celebration Video](celeb.mov) |
+| Celebration Video | Change Language Video |
+| ----------------- | --------------------- |
+| ![Celebration Video](screenshots/celeb.mov) | ![Change Language Video](screenshots/changelang.mov) |
 
----
-
-### Row 8:
-| Change Language Video |
-| --------------------- |
-| ![Change Language Video](changelang.mov) |
 
