@@ -6,11 +6,8 @@ The app provides users with transportation-related services focused on Riyadh ci
 
 ## 📷 Screenshots
 
-![image alt]()
+![image alt](https://github.com/azizotbb/capstone-one/blob/e21b00f70a2800532ad589376df6a0416772cced/img.jpg)
 
-## 🎥 Gif
-
-![image alt]()
 
 ## 🔍 Features
 
@@ -20,7 +17,7 @@ The app provides users with transportation-related services focused on Riyadh ci
 
 2. **Authentication:**
 
-   - Sign In screen with email and password validatio.
+   - Sign In screen with email and password validation.
    - Sign Up screen for new user registration with form validation.
    - Localization support for multi-language (Arabic and English).
 
