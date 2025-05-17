@@ -1,0 +1,53 @@
+{
+  "drawer": {
+    "store_name": "Jojo Bakery",
+    "about_store": "About the Store",
+    "terms_conditions": "Terms and Conditions",
+    "order_details": "Order Details",
+    "change_language": "Change Language"
+  },
+  "app_bar": {
+    "title": "Jojo Bakery"
+  },
+  "search": {
+    "hint": "Search for a product"
+  },
+  "home": {
+    "slogan": "We bake moments\nof happiness ..",
+    "categories": {
+      "all": "All",
+      "baguette": "Baguette",
+      "croissant": "Croissant",
+      "cookies": "Cookies",
+      "coffee": "Coffee"
+    },
+    "featured": {
+      "title": "Featured Baked Goods",
+      "see_all": "See All"
+    },
+    "recommended": {
+      "title": "Recommended",
+      "see_all": "See All"
+    },
+    "added_to_cart": "Added to Cart"
+  },
+  "products": {
+    "croissant_chocolate": "Chocolate Croissant",
+    "babka_chocolate": "Chocolate Babka",
+    "babka_thyme": "Thyme Babka",
+    "sourdough": "Sourdough",
+    "cheesecake": "Cheesecake",
+    "chocolate_cake": "Chocolate Cake"
+  },
+  "pay_page": {
+    "app_bar": {
+      "title": "Payment Page"
+    },
+    "section_header": {
+      "title": "Your Shopping Cart"
+    },
+    "button": {
+      "pay_now": "Pay Now"
+    }
+  }
+}
