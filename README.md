@@ -89,7 +89,7 @@ cd taskins
 2. openai - For AI-powered task breakdown
 3. shimmer - For sleek loading effects
 
-## Figma Inspiration Links 🎨
+## Figma Inspiration Link 🎨
 https://www.figma.com/design/Rt0UsLBhGeYrGbvA8Krzj1/P4-G8-Wellness-%7C-Design-File---Your-Names-Here?m=auto&t=K79wDtz2bFUPC7b0-6
 
 ## Author 💻
