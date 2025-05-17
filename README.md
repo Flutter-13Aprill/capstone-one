@@ -1,3 +1,9 @@
+## Welcome to Taskins 🌱
+
+An app designed to help you destress by tracking your mood and breaking down your to-dos with the power of AI, making life a little less stressful. 💫
+
+##
+
 
 ## Screenshots and Media
 
@@ -48,3 +54,7 @@
 | ![Celebration Video](celeb.mov) | ![Change Language Video](changelang.mov) |
 
 
+## Features ✨
+1. Mood Tracking: Keep track of your mood with a simple, user-friendly interface.
+2. AI-Powered To-Do Breakdown: Automatically break down broad tasks into manageable subtasks.
+3. Personalization: Supports themes, localization, and customizable task lists for a personalized experience.
