@@ -5,7 +5,7 @@ An app designed to help you destress by tracking your mood and breaking down you
 ##
 
 
-## Screenshots and Media
+## Screenshots and Media 📸🖼️📱
 
 
 | Splash Screen | Sign In | Shimmer Effect | Login Screen |
