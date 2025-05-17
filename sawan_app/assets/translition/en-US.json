@@ -1,0 +1,40 @@
+{
+  "title1": "Your time is in your hands!",
+  "subTitle1": "The world moves fast, ",
+  "title2": "No time wasted with Sawan",
+  "subTitle2": "The world moves fast, ",
+  "title3": "A watch that reflects your personality!",
+  "subTitle3": "Classic, sporty, formal?",
+  "signIn": "Create a new account",
+  "signInSubTitle": "Welcome, create a new account using your email",
+  "email": "Email",
+  "password": "Password",
+  "do you acc":"Do you have account?"
+  ,"Sign Up":"Sign Up",
+  "welcome":"Welcome Ahmed",
+  "Populer Watches":"Populer Watches","Log Out":"Do you wanna log out ?","Log OUT button":"Log Out","watchname1": "Tiwak Watch",
+  "price1": "1,000",
+
+  "tabbartitle1": "All",
+  "tabbartitle2": "Newest",
+  "tabbartitle3": "Popular",
+  "tabbartitle4": "Men",
+  "tabbartitle5": "Women",
+
+  "watchdescreption": "Tiwak Watch – classic elegance, modern precision",
+  "size": "Choose your size",
+  "detailhead": "Product Details",
+  "detail": "Inspired by Saudi authenticity with a luxurious and precise design. Made of stainless steel with elegant heritage touches, crystal scratch-resistant glass, and precise timekeeping. Water-resistant up to 50 meters, to suit your style every moment.",
+
+  "size1": "40mm",
+  "size2": "42mm",
+  "size3": "44mm",
+  "size4": "46mm","add to cart":"Add To Card","cart":"cart","Favotiet":"Favotiet","watches":"watches","Home":"Home",
+  "added_to_favorites": "Added to favorites",
+  "already_in_favorites": "Product already in favorites","added_successfully": "Added successfully",
+  "no_account": "Don't have an account?",
+  "create_account": "Create Account"
+
+
+  
+}
