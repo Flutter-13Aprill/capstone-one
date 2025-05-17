@@ -39,7 +39,7 @@ The **Flight Companion App** is a convenient solution for seamless flight planni
 2. Ensure you have an IDE like Android Studio or Visual Studio Code.
 3. Set up an emulator or physical device for testing.
 
-### Steps:![11](https://github.com/user-attachments/assets/5fa1c242-b878-44c6-a653-b4a250843025)
+### Steps:
 
 1. Clone the repository:  
    ```bash
@@ -49,7 +49,7 @@ flutter run
 
 
 
-
+![11](https://github.com/user-attachments/assets/5fa1c242-b878-44c6-a653-b4a250843025)
 ![3](https://github.com/user-attachments/assets/52eda8b2-9440-4116-abf4-af89ce0bfdcd)
 ![2](https://github.com/user-attachments/assets/e7f742b7-7496-4ee1-9182-9d19497c1457)
 ![1](https://github.com/user-attachments/assets/db72b3da-8930-4087-bfdd-865e5fa8c5fd)
