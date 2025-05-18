@@ -28,6 +28,8 @@ Note: You need a working emulator or a connected real device
 
  ## 📱 ScreenShout CV App Design Overview
  
+## Splash Screen
 
-![alt text](ScreenShout/image1.png)
+![image](https://github.com/user-attachments/assets/9cd348ea-7ccf-4555-acc1-0e2991bd9f12)
+
 
