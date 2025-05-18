@@ -110,7 +110,7 @@ Note: You need a working emulator or a connected real device
 
 ![image](https://github.com/user-attachments/assets/4f81a27f-85c9-44e0-9102-7473a8d3d5a6)
 
-##  Edit profile Screen
+##  Edit Profile Screen
 
 ![image](https://github.com/user-attachments/assets/ad5456ec-5fc7-467a-9543-60b97850b046)
 
