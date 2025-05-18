@@ -87,10 +87,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   backgroundColor: Color(0xff252836),
                                   title: Text(
                                     "logout_confirmation".tr(),
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .bodyLarge!
-                                        .copyWith(fontWeight: FontWeight.bold),
+                                    style: Theme.of(
+                                      context,
+                                    ).textTheme.bodyLarge!.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18,
+                                    ),
                                   ),
                                   actions: [
                                     TextButton(
