@@ -1,77 +1,33 @@
-# capstone one
+# 📝 CV Template App
+
+## Project Description
+The CV Template App is a Flutter-based mobile application designed to help users create professional and visually appealing CVs (Curriculum Vitae) with ease. The app offers a wide range of customizable templates tailored for various professions and styles, including basic, professional, creative, and modern designs.
+
+## Key Features:
+User-Friendly Navigation: Navigate through different sections of the app, including Home, Templates, Favorites, and Profile, using an intuitive bottom navigation bar.
+
+Template Browsing: Users can explore, preview, and purchase additional templates to enhance their CVs.
+Profile Management: Manage personal information, including name, email, and profile image, with options to edit and update.
+
+Favorites: Save preferred templates for quick access, streamlining the CV creation process.
+Feedback and Suggestions: Users can provide feedback or report issues through a dedicated suggestions screen.
+
+## User Experience:
+The app emphasizes a seamless user experience with visually appealing designs, smooth transitions between screens, and responsive layouts that adapt to both light and dark themes. It also supports multiple languages, making it accessible to a global audience.
 
 
-## 📝 Overview
+## ⚙️ Setup Instructions
+Clone the repository: Use the command line: git clone <Your Repository Path>
 
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
+Install dependencies: Make sure you have Flutter installed. Then run: flutter pub get
 
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+Run the app: You can launch the app using: flutter run
 
----
+Note: You need a working emulator or a connected real device
 
-## ✅ Mandatory Requirements
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
+ ## 📱 Demo CV App Design Overview
+ 
 
-## 📌 Guidelines
-
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
-
----
-
-## 📤 Submission Requirements
-
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
-
-### 🧾 README File (Documentation)
-Your `README.md` should include:
-
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
-
----
-
-## 🧰 Resources
-
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
-
----
-
-## ⏰ Deadline
-
-**Submit your project by May 18, before 10:00 AM.**
-
----
-
-## ✨ Final Note
-
-> "Good luck, and have fun creating your app!" 🎨📱
+![alt text](ScreenShout/Demo.mp4)
 
