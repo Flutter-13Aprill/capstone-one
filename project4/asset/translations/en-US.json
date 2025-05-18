@@ -1,0 +1,48 @@
+{
+"splashBrand" :"saves what you forget",
+"onboardingTitle1" : "Worry less !",
+"onboardingTitle2" : "Fear no more !",
+"onboardingTitle3" : "Save your Receipts.",
+"onboardingSubTitle1" : "You will always find your receipts !",
+"onboardingSubTitle2" :
+      "There is always a way to save them. Don’t worry !",
+"onboardingSubTitle3" : "Fatoortak is here to save your receipts.",
+  
+"skip" : "Skip",
+"next" : "Next",
+"start" : "Start",
+
+"welcome" : "Welcome!",
+"login" : "Login ",
+"register" : " Register now",
+"phone" : "Phone number",
+"member" : "Not a member?",
+"or" : "Or continue with",
+"otp" : "Send OTP",
+
+
+"signUp" : "Sign Up",
+"createAccount" : "Create an account to get started ",
+"name" : "Name",
+"hintName" : "name",
+
+"phoneNumber" : "Phone Number",
+"hintPhoneNumber" : "+966",
+"readAndAgree" : "I've read and agree with the ",
+"termsAndConditions" : "Terms and Conditions",
+"andThe" : " and the ",
+"privacyPolicy" : "Privacy Policy",
+"continues" : "Continue",
+"haveAccount" : "Already have an account ?",
+
+"enterCode" : "Enter confirmation code",
+"digitCode" : "A 6-digit code was sent to",
+"resendCode" : "Resend code",
+
+"enjoy" : "A way to enjoy life, and organize your receipts.",
+"addReceipts" : "Add Receipts",
+"editReceipts" : "Edit Receipts",
+"receipts" : "Receipts",
+"settings" : "Settings"
+
+}

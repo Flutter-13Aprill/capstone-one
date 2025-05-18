@@ -1,0 +1,45 @@
+{
+"splashBrand": "احفظ ما تنساه",
+"onboardingTitle1": "قل وداعاً للقلق!",
+"onboardingTitle2": "لا مزيد من الخوف!",
+"onboardingTitle3": "احفظ إيصالاتك.",
+"onboardingSubTitle1": "ستجد إيصالاتك دائماً!",
+"onboardingSubTitle2": "دائماً هناك طريقة لحفظها، لا تقلق!",
+"onboardingSubTitle3": "فاتورتك هنا لحفظ إيصالاتك.",
+
+"skip": "تخطي",
+"next": "التالي",
+"start": "ابدأ",
+
+"welcome": "مرحباً!",
+"login": "تسجيل الدخول",
+"register": "سجّل الآن",
+"phone": "رقم الجوال",
+"member": "لست عضواً؟",
+"or": "أو تابع باستخدام",
+"otp": "إرسال رمز التحقق",
+
+"signUp": "إنشاء حساب",
+"createAccount": "أنشئ حسابك للبدء",
+"name": "الاسم",
+"hintName": "الاسم",
+
+"phoneNumber": "رقم الجوال",
+"hintPhoneNumber": "+966",
+"readAndAgree": "لقد قرأت ووافقت على ",
+"termsAndConditions": "الشروط والأحكام",
+"andThe": " و ",
+"privacyPolicy": "سياسة الخصوصية",
+"continues": "استمرار",
+"haveAccount": "هل لديك حساب بالفعل؟",
+
+"enterCode": "أدخل رمز التأكيد",
+"digitCode": "تم إرسال رمز مكوّن من 6 أرقام إلى",
+"resendCode": "إعادة إرسال الرمز",
+
+"enjoy": "طريقة للاستمتاع بالحياة وتنظيم إيصالاتك.",
+"addReceipts": "إضافة إيصالات",
+"editReceipts": "تعديل الإيصالات",
+"receipts": "الإيصالات",
+"settings": "الإعدادات"
+}
