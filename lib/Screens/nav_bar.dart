@@ -1,7 +1,7 @@
+import 'package:capstone1/Controllers/balance_header_controller.dart';
 import 'package:capstone1/Screens/analysis_screen.dart';
 import 'package:capstone1/Screens/categories_screen.dart';
 import 'package:capstone1/Screens/home_screen.dart';
-import 'package:capstone1/Screens/transactions_screen.dart';
 import 'package:capstone1/Styling/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -13,13 +13,9 @@ class NavBar extends StatefulWidget {
 }
 
 class _NavBarState extends State<NavBar> {
+  final BalanceHeaderController balanceHeaderController =
+      BalanceHeaderController();
   int _selectedIndex = 0;
-  final List<Widget> _screens = [
-    HomeScreen(),
-    AnalysisScreen(),
-    TransactionsScreen(),
-    CategoriesScreen(),
-  ];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -29,8 +25,15 @@ class _NavBarState extends State<NavBar> {
 
   @override
   Widget build(BuildContext context) {
+    final List<Widget> screens = [
+      HomeScreen(balanceHeaderController: balanceHeaderController),
+      AnalysisScreen(balanceHeaderController: balanceHeaderController),
+      CategoriesScreen(balanceHeaderController: balanceHeaderController),
+    ];
     return Scaffold(
-      body: _screens[_selectedIndex],
+      extendBody: true,
+      extendBodyBehindAppBar: true,
+      body: screens[_selectedIndex],
       bottomNavigationBar: Container(
         clipBehavior: Clip.antiAlias,
         decoration: BoxDecoration(
@@ -74,14 +77,6 @@ class _NavBarState extends State<NavBar> {
               NavigationDestination(
                 icon: Image.asset(
                   "assets/images/analysis.png",
-                  height: 30,
-                  width: 30,
-                ),
-                label: '',
-              ),
-              NavigationDestination(
-                icon: Image.asset(
-                  "assets/images/transactions.png",
                   height: 30,
                   width: 30,
                 ),

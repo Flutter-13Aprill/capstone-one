@@ -1,4 +1,5 @@
 import 'package:capstone1/Helpers/screen_extinsion.dart';
+import 'package:capstone1/Screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class Tiles extends StatelessWidget {
@@ -49,7 +50,11 @@ class Tiles extends StatelessWidget {
               height: context.screenHeight * 0.05,
             ),
             title: const Text('Logout'),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => const LoginScreen()),
+              );
+            },
           ),
         ),
       ],

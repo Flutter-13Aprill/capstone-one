@@ -27,8 +27,8 @@ class _LoginScreenState extends State<LoginScreen> {
       },
       child: Scaffold(
         body: SizedBox(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
+          height: context.screenHeight,
+          width: context.screenWidth,
           child: Form(
             key: _key,
             child: Column(
@@ -72,7 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           ElevatedButton(
                             onPressed: () {
-                              loginController.singIn(
+                              loginController.signIn(
                                 context: context,
                                 formKey: _key,
                               );
@@ -103,7 +103,9 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                           ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              loginController.signUp(context: context);
+                            },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: lightGreen,
                               fixedSize: Size(
@@ -134,6 +136,14 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                               children: [
                                 TextSpan(
+                                  recognizer:
+                                      TapGestureRecognizer()
+                                        ..onTap = () async {
+                                          await loginController
+                                              .authenticateWithBiometrics(
+                                                context: context,
+                                              );
+                                        },
                                   text: "Fingerprint",
 
                                   style: TextStyle(
