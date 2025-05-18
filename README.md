@@ -1,77 +1,38 @@
-# capstone one
+## 🧺 Laundry App
+A modern and intuitive laundry service app, connecting users with nearby laundry providers and making it easy to manage laundry needs—all in one place.
+![1](https://github.com/user-attachments/assets/270738ec-70fe-4786-8bcd-7ee76439a10e)
+![2](https://github.com/user-attachments/assets/7706fc17-260f-4d9c-b0e3-0174b2a39511)
 
 
-## 📝 Overview
+## 📱 Features
+🧼 Quick Booking – Find and order from nearby laundries.
 
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
+🛒 Order Tracking – Manage and follow your laundry orders.
 
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+🌍 Language Support – Switch between Arabic and English.
 
----
+## 🧰 Tech Stack
+- Flutter (latest version)
 
-## ✅ Mandatory Requirements
+- Dart
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
+🚀 Installation
+bash
+Copy
+Edit
+git clone https://github.com/shtwaijri/App-Design-Implementation.git
+cd App-Design-Implementation
+flutter pub get
+flutter run
+## 🧑‍💻 How to Use
+Launch the app.
 
-## 📌 Guidelines
+Go through the intro screens or skip them.
 
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
+Sign up or log in to your account.
 
----
+Browse laundries
 
-## 📤 Submission Requirements
-
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
-
-### 🧾 README File (Documentation)
-Your `README.md` should include:
-
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
-
----
-
-## 🧰 Resources
-
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
-
----
-
-## ⏰ Deadline
-
-**Submit your project by May 18, before 10:00 AM.**
-
----
-
-## ✨ Final Note
-
-> "Good luck, and have fun creating your app!" 🎨📱
+## 👩‍💻 Author
+Shatha Altwaijri
 
