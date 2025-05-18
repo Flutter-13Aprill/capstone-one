@@ -14,6 +14,9 @@ Check out the UI design on Figma:
 ---
 
 ### Output 📱
+Check out the output:
+[📱 Output](https://drive.google.com/file/d/1PF7rOwChVZ7dxLcoZCjq1HqDEiC1VkxR/view)
+
 
 ---
 
