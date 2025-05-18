@@ -12,7 +12,7 @@
 ### 🔍 Project Preview
 
 <img src="page_preview.gif" alt="Preview" width="350">
-<img src="page_preview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
+<!-- <img src="page_preview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" /> -->
 
 
 
@@ -30,36 +30,36 @@
 ---
 
 ### 📱 Widgets Used
+- **AlertDialog**  
+- **AppBar**  
+- **BottomNavigationBar**  
+- **BottomSheet**  
+- **Center**  
+- **CircleAvatar**  
+- **Column**  
+- **Container**  
+- **TextField**  
+- **Expanded**  
+- **Icon**  
+- **IconButton**  
+- **Image**  
+- **ListTile**  
+- **ListView**  
+- **Padding**  
+- **PageView**  
+- **Positioned**  
+- **Row**  
+- **SafeArea**  
+- **Scaffold**  
+- **SearchBar**  
+- **SingleChildScrollView**  
+- **SizedBox**  
+- **SmoothPageIndicator**  
+- **Stack**  
+- **TabBar**  
+- **TabBarView**  
+- **Text**  
 
-- AlertDialog  
-- AppBar  
-- BottomNavigationBar  
-- BottomSheet  
-- Center  
-- CircleAvatar  
-- Column  
-- Container  
-- TextField  
-- Expanded  
-- Icon  
-- IconButton  
--. Image  
-- ListTile  
-- ListView  
-- Padding  
-- PageView  
-- Positioned  
-- Row  
-- SafeArea  
-- Scaffold  
-- SearchBar  
-- SingleChildScrollView  
-- SizedBox  
-- SmoothPageIndicator  
-- Stack  
-- TabBar  
-- TabBarView  
-- Text  
 
 
 ---
