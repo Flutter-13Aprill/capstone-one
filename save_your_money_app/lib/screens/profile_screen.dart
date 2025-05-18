@@ -87,16 +87,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   backgroundColor: Color(0xff252836),
                                   title: Text(
                                     "logout_confirmation".tr(),
-                                    style: TextStyle(color: Colors.white),
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .bodyLarge!
+                                        .copyWith(fontWeight: FontWeight.bold),
                                   ),
                                   actions: [
                                     TextButton(
                                       onPressed: () => Navigator.pop(context),
                                       child: Text(
                                         "no".tr(),
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 14,
+                                        style: Theme.of(
+                                          context,
+                                        ).textTheme.bodyLarge!.copyWith(
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                     ),
@@ -112,9 +116,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                       },
                                       child: Text(
                                         "yes".tr(),
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 14,
+                                        style: Theme.of(
+                                          context,
+                                        ).textTheme.bodyLarge!.copyWith(
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                     ),
