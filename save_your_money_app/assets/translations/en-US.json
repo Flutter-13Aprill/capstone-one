@@ -1,0 +1,94 @@
+{
+     "onboarding1": {
+  "title": "Take Control of Your Spending",
+    "subtitle": "Every riyal you track makes a difference in your budget."
+    
+    },
+
+      "onboarding2": {
+   "title": "Know Where Your Money Goes",
+    "subtitle": "Set a budget for each category and track your expenses step by step."
+    
+    },
+      "onboarding3": {
+    "title": "Set Your Goals and Start Saving",
+    "subtitle": "The journey to a million riyals starts with just one!"
+    
+    },
+  
+   
+
+
+
+    
+
+
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "dont_have_account": "Don’t have account yet?",
+  "sign_up": "Sign Up",
+  "or_login_with": "Or login with",
+  "forgot_password": "Forgot Password?",
+  "confirm_password": "Confirm Password",
+  "remember_me": "Remember me",
+  "already_have_account": "Already have an account?",
+  "or_sign_up_with": "Or Sign up with",
+
+  "budget_planner": "Budget Planner",
+  "home": "Home",
+  "profile": "Profile",
+
+  "username": "Username",
+  "one_step_closer": "One step closer to smart saving",
+
+  "edit_profile": "Edit Profile",
+  "settings": "Settings",
+  "about_us": "About Us",
+  "logout": "Logout",
+
+  "all_transactions": "All Transactions",
+  "incoming_transactions": "Incoming Transactions",
+  "outgoing_transactions": "Outgoing Transactions",
+
+  "expires": "Expires",
+  "card_holder": "Card Holder",
+
+  "hello": "Hello,",
+  "view_all": "View All",
+
+  "logout_confirmation": "Are you sure you want to log out?",
+  "yes": "Yes",
+  "no": "No",
+
+    "budget_amount": "Budget Amount",
+  "category_name": "Category Name",
+  "add_new_category": "Add new category",
+
+   "add": "Add",
+  "cancel": "Cancel",
+
+   "username_required": "Username is required",
+  "email_required": "Email is required",
+  "invalid_email": "Please enter a valid email",
+  "password_required": "Password is required",
+  "password_min_length": "Password must be at least 6 characters",
+  "confirm_password_required": "Please confirm your password",
+  "passwords_do_not_match": "Passwords do not match",
+  "please_fix_errors": "Please fix the errors before submitting",
+
+
+  "total_balance": "Total Balance",
+  "goal": "Goal",
+
+   "monthly_budget": "Monthly Budget",
+  "spent": "Spent",
+ 
+
+   "budget": "Budget"
+
+
+
+
+
+}

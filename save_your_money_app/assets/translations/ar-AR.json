@@ -1,0 +1,90 @@
+{
+
+
+    "onboarding1": {
+    "title": "تحكم في مصروفاتك",
+    "subtitle": "كل ريال تحسبه، يصنع فرق في ميزانيتك."
+     },
+
+       "onboarding2": {
+     "title": "اعرف وين تروح فلوسك",
+    "subtitle": "خصص ميزانية لكل فئة وتابع مصروفاتك أول بأول."
+     },
+
+       "onboarding3": {
+     "title": "حدد أهدافك وابدأ الادخار لها",
+    "subtitle": "رحلة المليون ريال تبدأ بريال واحد!"
+     },
+
+   
+    
+   
+
+   
+
+
+  "login": "تسجيل الدخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirm_password": "تأكيد كلمة المرور",
+  "dont_have_account": "ليس لديك حساب بعد؟",
+  "sign_up": "إنشاء حساب",
+  "or_login_with": "أو سجل الدخول بواسطة",
+  "remember_me": "تذكرني",
+  "forgot_password": "هل نسيت كلمة المرور؟",
+  "already_have_account": "هل لديك حساب بالفعل؟",
+  "or_sign_up_with": "أو أنشئ حساب بواسطة",
+
+ "username": "اسم المستخدم",
+  "one_step_closer": "خطوة واحدة نحو الادخار الذكي",
+
+  "budget_planner": "مخطط الميزانية",
+  "home": "الرئيسية",
+  "profile": "الملف الشخصي",
+
+   "edit_profile": "تعديل الملف الشخصي",
+   "settings": "الإعدادات",
+   "about_us": "معلومات عنا",
+   "logout": "تسجيل الخروج",
+
+  "all_transactions": "كل المعاملات",
+  "incoming_transactions": "المعاملات الواردة",
+  "outgoing_transactions": "المعاملات الصادرة",
+
+    "expires": "تاريخ الانتهاء",
+  "card_holder": "حامل البطاقة",
+
+    "hello": "مرحبا,",
+    "view_all": "عرض الكل",
+
+    "logout_confirmation": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+   "yes": "نعم",
+   "no": "لا",
+
+    "budget_amount": "المبلغ المخصص",
+  "category_name": "اسم الفئة",
+  "add_new_category": "إضافة فئة جديدة",
+
+   "add": "إضافة",
+  "cancel": "إلغاء",
+
+  "username_required": "اسم المستخدم مطلوب",
+  "email_required": "البريد الإلكتروني مطلوب",
+  "invalid_email": "يرجى إدخال بريد إلكتروني صالح",
+  "password_required": "كلمة المرور مطلوبة",
+  "password_min_length": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+  "confirm_password_required": "يرجى تأكيد كلمة المرور",
+  "passwords_do_not_match": "كلمة المرور وتأكيد كلمة المرور غير متطابقتين",
+  "please_fix_errors": "يرجى تصحيح الأخطاء قبل الإرسال",
+
+
+  "total_balance": "اجمالي الرصيد",
+  "goal": "الهدف",
+
+  "monthly_budget": "الميزانية الشهرية",
+    "spent": "المصروف",
+    "budget": "الميزانية"
+
+
+
+}
