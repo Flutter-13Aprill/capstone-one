@@ -59,18 +59,18 @@ Note: You need a working emulator or a connected real device
 
 ![image](https://github.com/user-attachments/assets/37b69c17-a496-46cc-a693-4ef619395016)
 
-## Privacy Screen Accept to continue
+## Privacy Screen Accept To Continue
 
 ![image](https://github.com/user-attachments/assets/66eea7df-904c-47da-ba2e-7f334fc570b1)
 
 
-## Home Screen with dark mode
+## Home Screen With Dark Mode
 ![image](https://github.com/user-attachments/assets/c866ec51-30ca-4c7a-bba9-d06ce5c9c860)
 
-### Home Screen with light mode
+### Home Screen With Light Mode
 ![image](https://github.com/user-attachments/assets/ce4a447d-d6b0-4ddf-b541-1daf021caace)
 
-### Home Screen with support Arabic Languge
+### Home Screen With Arabic Language
 
 ![image](https://github.com/user-attachments/assets/8b5177d2-d61c-41cd-9547-c5c8851ef747)
 
