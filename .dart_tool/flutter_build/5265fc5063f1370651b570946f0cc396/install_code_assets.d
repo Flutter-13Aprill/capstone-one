@@ -1,0 +1,1 @@
+ /Users/solym/src/projects/capstone1/capstone-one/.dart_tool/flutter_build/5265fc5063f1370651b570946f0cc396/native_assets.json: 
