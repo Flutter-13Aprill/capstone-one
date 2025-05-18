@@ -21,19 +21,17 @@ While currently focused on delivering a seamless mobile experience across Androi
 
 
 ## 📱 Screenshots
+## Discover
 
-##Discover
 | splash                                  | Discover                                    | onbording1                                      | onbording2                                      | onbording3                                      |
 | :-------------------------------------- | :------------------------------------------ | :---------------------------------------------- | :---------------------------------------------- | :---------------------------------------------- |
-| ![splash](preview/splash.jpeg)         | ![Discover](preview/walcome.jpeg)          | ![onbording1](preview/onbording1.jpeg)        | ![onbording2](preview/onbording2.jpeg)        | ![onbording3](preview/onbording3.jpeg)        |
+| <img src="preview/splash.jpeg" height="150"> | <img src="preview/walcome.jpeg" height="150"> | <img src="preview/onbording1.jpeg" height="150"> | <img src="preview/onbording2.jpeg" height="150"> | <img src="preview/onbording3.jpeg" height="150"> |
 
 ## application
 
 | login                                   | sign_up                                     | home_view                                     | home_view_shimmer                             | project_details                                 | project_view                                  | create_new_project                            | AlertDialog                                   | setting_view                                  | darkmode                                    | home_view_dar_kmode                           | langauge_view                                 | change_langauge                               | about_view                                    |
 | :-------------------------------------- | :------------------------------------------ | :-------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- | :-------------------------------------------- | :------------------------------------------ | :-------------------------------------------- | :---------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- |
-| ![login](preview/login.jpeg)          | ![sign_up](preview/sign_up.jpeg)           | ![home_view](preview/home_view.jpeg)         | ![home_view](preview/home_view_shimmer.jpeg) | ![project_details](preview/project_details.jpeg) | ![project_view](preview/project_view.jpeg)   | ![create_new_project](preview/create_new.jpeg) | ![AlertDialog](preview/alert_dialog.jpeg)   | ![setting_view](preview/setting_view.jpeg)   | ![darkmode](preview/darkmode.jpeg)           | ![home_view_darkmode](preview/home_view_darkmode.jpeg) | ![langauge_view](preview/langauge_view.jpeg) | ![change_langauge](preview/change_langauge.jpeg) | ![about_view](preview/about_view.jpeg)       |
----
-
+| <img src="preview/login.jpeg" height="150"> | <img src="preview/sign_up.jpeg" height="150"> | <img src="preview/home_view.jpeg" height="150"> | <img src="preview/home_view_shimmer.jpeg" height="150"> | <img src="preview/project_details.jpeg" height="150"> | <img src="preview/project_view.jpeg" height="150"> | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/alert_dialog.jpeg" height="150"> | <img src="preview/setting_view.jpeg" height="150"> | <img src="preview/darkmode.jpeg" height="150"> | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> | <img src="preview/change_langauge.jpeg" height="150"> | <img src="preview/about_view.jpeg" height="150"> |
 
 
 ## 🎨 Figma UI Design
