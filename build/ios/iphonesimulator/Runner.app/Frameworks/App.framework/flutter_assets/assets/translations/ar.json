@@ -1,0 +1,111 @@
+{
+    "first_onboarding_screen_title": "شبتك … بدون تعب",
+    "first_onboarding_screen_subtitle": "خل عنك الشيل والحط",
+
+    "second_onboarding_screen_title": "وش نوع طلعتك اليوم؟",
+    "second_onboarding_screen_subtitle": "جلسة؟ قهوة؟ ولا عشاء؟\n اختر الخدمة اللي تناسبك وخلك مرتاح.",
+
+    "third_onboarding_screen_title": "جاهزين لك في أي وقت",
+    "third_onboarding_screen_subtitle": "استمتع بشّبتك، وإحنا نهتم بالباقي",
+    
+    "login_text": "تسجيل دخول",
+
+    "phone_number_textfield": "رقم الجوال",
+    "phone_number_textfield_first_val": "يرجى إدخال رقم الجوال",
+    "phone_number_textfield_second_val": "يرجى البدء بصفر\nمثال: 050000000",
+    "phone_number_textfield_third_val": "تأكد من أن الرقم يبدأ بـ 05\nمثال: 050000000",
+    "phone_number_textfield_fourth_val": "هناك بعض الأرقام المفقودة، تأكد من إدخال رقمك الكامل",
+    
+    "password_text": "كلمة المرور",
+
+    "remember_me": "تذكرني",
+
+    "forgot_your_password": "هل نسيت كلمة المرور؟",
+    
+
+    "confirm_your_password": "تأكيد كلمة المرور",
+
+    "password_textfield_first_val": "تأكد أن كلمة المرور أكثر من 6 أحرف",
+
+    "password_confirmation_textfield_first_val": "تأكد أن كلمتي المرور متطابقتان",
+
+    "agreement_to_sign_up_with_us": "من خلال التسجيل، أنت توافق على الشروط والأحكام.",
+
+    "i_have_an_account": "عندك حساب؟ سجل الدخول",
+
+    "i_dont_have_account": "ما عندك حساب؟ سجل الآن",
+
+    "sign_up_text": "تسجيل",
+
+    "first_name": "الاسم الأول",
+
+    "otp_welcome_text": "اهلا {}",
+
+    "enter_otp_number": "أدخل رمز التحقق",
+
+    "error_message_with_wrong_otp": "تأكد من إدخال رمز التحقق الصحيح",
+
+    "resend_otp": "إعادة إرسال الرمز",
+
+    "welcome_text_in_home_screen" : "اهلا {}",
+
+    "subtitle_text_in_home_screen": "جهز شبتك معنا",
+
+    "includes_text": "تشمل",
+
+    "how_many_of_you": "كم عددكم ؟",
+
+    "add_to_cart_text": "اضفها لسله",
+
+    "empty_cart_message": "لا يوجد شي في السلة",
+
+    "cart_text": "السلة",
+
+    "when_your_shabah": "متى شبتك؟",
+
+    "date_text": "التاريخ",
+
+    "date_picker_textfield_val": "يرجى إدخال التاريخ",
+
+    "address_text": "العنوان",
+
+    "city_text": "المدينة",
+
+    "city_textfield_first_val": "أدخل مكان شبتك",
+
+    "city_textfield_second_val": "عذرًا، مدينتك غير مدعومة حاليًا",
+
+    "area_text": "مكان الشعيب",
+
+    "area_textfield_first_val": "يرجى ادخال مكان الشبه",
+
+    "notes_text": "ملاحظات",
+
+    "add_note_textfield": "أضف ملاحظة",
+
+    "pay_text": "ادفع",
+
+    "confirm_your_shabah_text": "أكد شبتك",
+
+    "shabah_info_text": "معلومات الشبه",
+
+    "city_text_in_bottom_sheet": "المدينة: {}",
+
+    "address_text_in_bottom_sheet": "العنوان: {}",
+
+    "shabah_date_text_in_bottom_sheet": "تاريخ الشبه: {}",
+
+    "confirm_label_button": "تأكيد",
+
+    "alert_title_text": "شبه",
+
+    "alert_body_text": "إذا تم إطلاق مشروعي، ستوصلك الخدمة",
+    
+    "joined_date_text": "انضم في 18 مايو",
+
+    "order_history_text": "سجل الطلبات",
+
+    "change_language_text": "تغيير اللغة الى {}",
+
+    "delete_account": "حذف الحساب"
+}

@@ -1,0 +1,113 @@
+{
+    "first_onboarding_screen_title": "Campfire night, no hassle",
+    "first_onboarding_screen_subtitle": "Skip the loading and unloading",
+
+    "second_onboarding_screen_title": "What kind of outing is it today?",
+    "second_onboarding_screen_subtitle": "A cozy hangout, a fresh brew, or a delicious dinner?\nChoose what fits your vibe and leave the rest to us",
+
+    "third_onboarding_screen_title": "We’re ready for you anytime",
+    "third_onboarding_screen_subtitle": "Just enjoy the moment — we’ve got everything else covered",
+
+    "login_text": "Log in",
+
+    "phone_number_textfield": "Phone Number",
+    "phone_number_textfield_first_val": "Please enter your phone number",
+    "phone_number_textfield_second_val": "Please start with zero\nExample:050000000",
+    "phone_number_textfield_third_val": "Please make sure to start with these numbers 05\nExample:050000000",
+    "phone_number_textfield_fourth_val": "There are some missing numbers, make sure to enter you full number",
+
+    "password_text": "Password",
+
+    "confirm_your_password": "Confirm your password",
+
+    "password_textfield_first_val": "Please make sure your password more than 6 characters",
+
+    "password_confirmation_textfield_first_val": "Make sure to have the same password",
+
+    "agreement_to_sign_up_with_us": "By signing up, you agree to the Terms and Conditions",
+
+    "remember_me": "Remember me",
+
+    "forgot_your_password": "Forgot your password?",
+
+    "i_have_an_account": "You already have an account? Log in",
+
+    "i_dont_have_account": "You don't have an account? sign up",
+
+    "sign_up_text": "Sign up",
+
+    "first_name": "First name",
+
+    "otp_welcome_text": "Hello {}",
+
+    "enter_otp_number": "Enter the OTP",
+
+    "error_message_with_wrong_otp": "Make sure to enter the correct OTP",
+
+    "resend_otp": "Resend OTP",
+
+    "welcome_text_in_home_screen": "Welcome {}",
+
+    "subtitle_text_in_home_screen": "Get your campfire ready with us",
+
+    "includes_text": "includes",
+
+    "how_many_of_you": "How many of you ?", 
+
+    "add_to_cart_text": "Add to Cart",
+
+    "empty_cart_message": "There is no thing in you cart",
+
+    "cart_text": "Cart",
+
+    "when_your_shabah": "When's your shabah?",
+
+    "date_text": "Date",
+
+    "date_picker_textfield_val": "Please enter a date",
+
+    "address_text": "Address",
+
+    "city_text": "City",
+
+    "city_textfield_first_val": "Enter where is your shabah will be",
+
+    "city_textfield_second_val": "Sorry, we don't support your city yet",
+
+    "area_text": "Area",
+
+    "area_textfield_first_val": "Please enter your Shahah area",
+
+    "notes_text": "Notes",
+
+    "add_note_textfield": "Add a note",
+
+    "pay_text": "Pay",
+
+    "confirm_your_shabah_text": "Confirm your shabah",
+
+    "shabah_info_text": "Shabah info",
+
+    "city_text_in_bottom_sheet": "City: {}",
+
+    "address_text_in_bottom_sheet": "Address: {}",
+
+    "shabah_date_text_in_bottom_sheet": "Shabah Date: {}",
+
+    "confirm_label_button": "Confirm",
+
+    "alert_title_text": "Shabah",
+
+    "alert_body_text": "If my startup exists, the service will be delivered to you",
+
+    "joined_date_text": "Joined on 18th May",
+
+    "order_history_text": "Order History",
+
+    "change_language_text": "Change Language to {}",
+
+    "delete_account": "Delete account"
+
+
+
+}
