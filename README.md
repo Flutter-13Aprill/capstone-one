@@ -20,7 +20,7 @@ A modern and intuitive laundry service app, connecting users with nearby laundry
 bash
 Copy
 Edit
-git clone https://github.com/shtwaijri/App-Design-Implementation.git
+git clone https://github.com/shtwaijri/capstone-one.git
 cd App-Design-Implementation
 flutter pub get
 flutter run
