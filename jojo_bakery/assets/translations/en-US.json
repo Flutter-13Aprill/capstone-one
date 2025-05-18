@@ -1,4 +1,43 @@
 {
+ "thank_you_waiting": "Thank you for waiting!",
+  "order_on_the_way": "Your order is on the way 🚚",
+  "signup_success": "Account created successfully",
+  "signup_wrong_password": "Incorrect password",
+  "create_account": "Create Account",
+  "username": "Username",
+  "enter_username": "Enter username",
+  "username_min_length": "Must be more than three characters",
+  "email": "Email",
+  "enter_email": "Enter your email",
+  "invalid_email": "Invalid email address",
+  "password": "Password",
+  "enter_valid_password": "Enter a valid password",
+  "password_min_length": "Password must be at least eight characters",
+  "password_requirements":
+    "Password must contain an uppercase letter, a lowercase letter, a number, and a special character (e.g., @, #, !, %).",
+  "confirm_password": "Confirm Password",
+  "confirm_password_hint": "Please confirm password",
+  "password_mismatch": "Passwords do not match",
+  "signup": "Sign Up",
+  "change_password": "Change Password",
+  "orders": "Orders",
+  "notifications": "Notifications",
+  "help_support": "Help & Support",
+  "logout": "Logout",
+  "profile": "Profile",
+  "cart": "cart",
+  "home1": "home",
+  "cart_title": "Shopping Cart",
+  "delete_all": "Delete All",
+  "product": "Products",
+  "confirm_delete_title": "Delete Confirmation",
+  "confirm_delete_body": "Are you sure you want to delete all items from the cart?",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "checkout": "Checkout",
+
   "drawer": {
     "store_name": "Jojo Bakery",
     "about_store": "About the Store",
@@ -6,12 +45,15 @@
     "order_details": "Order Details",
     "change_language": "Change Language"
   },
+
   "app_bar": {
     "title": "Jojo Bakery"
   },
+
   "search": {
     "hint": "Search for a product"
   },
+
   "home": {
     "slogan": "We bake moments\nof happiness ..",
     "categories": {
@@ -29,8 +71,11 @@
       "title": "Recommended",
       "see_all": "See All"
     },
-    "added_to_cart": "Added to Cart"
+    "added_to_cart": "Added to Cart",
+    "similar_products": "Similar Products",
+  "add_to_cart": "Add to Cart"
   },
+
   "products": {
     "croissant_chocolate": "Chocolate Croissant",
     "babka_chocolate": "Chocolate Babka",
@@ -39,6 +84,7 @@
     "cheesecake": "Cheesecake",
     "chocolate_cake": "Chocolate Cake"
   },
+
   "pay_page": {
     "app_bar": {
       "title": "Payment Page"

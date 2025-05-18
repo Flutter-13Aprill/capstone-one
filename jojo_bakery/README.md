@@ -52,8 +52,8 @@ A bilingual (Arabic / English) café & bakery application that lets users brow
 
 ```bash
 # 1. استنساخ المستودع
-git clone https://github.com/⟪username⟫/⟪repo⟫.git
-cd ⟪repo⟫
+git clone https://github.com/Norah200/capstone-one.git
+cd capstone-one
 
 # 2. تثبيت الاعتماديات
 flutter pub get
@@ -78,6 +78,7 @@ lib/
  └─ fonts/
 
 🙋‍♀️ Author
-Your Name
-GitHub · LinkedIn
+| **Name**              | Norah Alshakarah |
+| **GitHub**            | [@Norah200](https://github.com/Norah200) |
+
 

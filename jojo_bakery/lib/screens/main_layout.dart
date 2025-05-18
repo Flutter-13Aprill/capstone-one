@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:jojo_bakery/screens/cart_screen.dart';
 import 'package:jojo_bakery/screens/home_screen.dart';
@@ -32,13 +33,16 @@ class _MainLayoutState extends State<MainLayout> {
             currentIndex = value;
           });
         },
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'الرئيسية'),
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home1'.tr()),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            label: 'السلة',
+            label: 'cart'.tr(),
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'حسابي'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'profile'.tr(),
+          ),
         ],
       ),
     );

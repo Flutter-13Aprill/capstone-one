@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
@@ -23,7 +24,7 @@ class _OrderProcessingScreenState extends State<OrderProcessingScreen> {
           AnimatedTextKit(
             animatedTexts: [
               FadeAnimatedText(
-                'شكرًا لانتظارك!',
+                'thank_you_waiting'.tr(),
                 textStyle: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -31,7 +32,7 @@ class _OrderProcessingScreenState extends State<OrderProcessingScreen> {
                 duration: Duration(seconds: 2),
               ),
               FadeAnimatedText(
-                'طلبك في الطريق 🚚',
+                'order_on_the_way'.tr(),
                 textStyle: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

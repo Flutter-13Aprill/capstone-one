@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:jojo_bakery/theme/app_colors.dart';
 
@@ -40,7 +41,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 backgroundImage: AssetImage('assets/icons/profile.png'),
               ),
               SizedBox(width: 20),
-              Text('حسابي'),
+              Text('profile'.tr()),
             ],
           ),
           SizedBox(height: 20),
@@ -52,7 +53,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 backgroundImage: AssetImage('assets/icons/password.png'),
               ),
               SizedBox(width: 20),
-              Text('تغيير كلمة المرور'),
+              Text('change_password'.tr()),
             ],
           ),
           SizedBox(height: 20),
@@ -64,7 +65,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 backgroundImage: AssetImage('assets/icons/time.png'),
               ),
               SizedBox(width: 20),
-              Text('الطلبات'),
+              Text('orders'.tr()),
             ],
           ),
           SizedBox(height: 20),
@@ -77,7 +78,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 backgroundImage: AssetImage('assets/icons/alrm.png'),
               ),
               SizedBox(width: 20),
-              Text('التنبيهات'),
+              Text('notifications'.tr()),
             ],
           ),
           SizedBox(height: 20),
@@ -90,7 +91,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 backgroundImage: AssetImage('assets/icons/help.png'),
               ),
               SizedBox(width: 20),
-              Text('المساعده والدعم'),
+              Text('help_support'.tr()),
             ],
           ),
           SizedBox(height: 20),
@@ -100,7 +101,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               SizedBox(width: 20),
               Image.asset('assets/icons/out.png'),
               SizedBox(width: 20),
-              Text('تسجيل خروج'),
+              Text('logout'.tr()),
             ],
           ),
           SizedBox(height: 20),

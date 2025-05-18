@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:jojo_bakery/controller/cart_controller.dart';
 import 'package:jojo_bakery/models/product.dart';
@@ -32,17 +33,17 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
 
   final List<Product> similarProducts = [
     Product(
-      title: 'كروسان شوكلت',
+      title: 'products.croissant_chocolate'.tr(),
       imagePath: 'assets/images/croissant.png',
       price: 10,
     ),
     Product(
-      title: 'بابكا شوكلت',
+      title: 'products.babka_chocolate'.tr(),
       imagePath: 'assets/images/babka.png',
       price: 10,
     ),
     Product(
-      title: 'بابكا زعتر',
+      title: 'products.babka_thyme'.tr(),
       imagePath: 'assets/images/babka2.png',
       price: 10,
     ),
@@ -94,169 +95,166 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Directionality(
-      textDirection: TextDirection.rtl,
-      child: Scaffold(
-        backgroundColor: AppColors.white,
-        appBar: AppBar(
-          backgroundColor: AppColors.cardColors,
-          elevation: 0,
-          leading: IconButton(
-            icon: Icon(Icons.shopping_cart, color: AppColors.primary),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => CartScreen()),
-              );
-            },
-          ),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.arrow_forward_ios, color: AppColors.primary),
-              onPressed: () => Navigator.pop(context),
-            ),
-          ],
+    return Scaffold(
+      backgroundColor: AppColors.white,
+      appBar: AppBar(
+        backgroundColor: AppColors.cardColors,
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.shopping_cart, color: AppColors.primary),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => CartScreen()),
+            );
+          },
         ),
-        body: SingleChildScrollView(
-          child: Padding(
-            padding: EdgeInsets.zero,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Center(
-                  child: Container(
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(33),
-                        bottomRight: Radius.circular(33),
-                      ),
-                      color: AppColors.cardColors,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.arrow_forward_ios, color: AppColors.primary),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.zero,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Center(
+                child: Container(
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(33),
+                      bottomRight: Radius.circular(33),
                     ),
-                    child:
-                        isLoading
-                            ? buildImageShimmer()
-                            : Image.asset(
-                              widget.product.imagePath ??
-                                  'assets/images/sourdough.png',
-                              height: 240,
-                              fit: BoxFit.fitWidth,
-                            ),
+                    color: AppColors.cardColors,
                   ),
+                  child:
+                      isLoading
+                          ? buildImageShimmer()
+                          : Image.asset(
+                            widget.product.imagePath ??
+                                'assets/images/sourdough.png',
+                            height: 240,
+                            fit: BoxFit.fitWidth,
+                          ),
                 ),
-                const SizedBox(height: 16),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            widget.product.title ?? 'ساوردو',
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                          SizedBox(height: 4),
-                          Text(
-                            '${widget.product.price?.toStringAsFixed(2) ?? 34} SAR',
-                            style: TextStyle(fontSize: 16, color: Colors.grey),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: List.generate(
-                          5,
-                          (index) => const Icon(
-                            Icons.star,
-                            color: Colors.amber,
-                            size: 20,
+              ),
+              const SizedBox(height: 16),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          widget.product.title ?? 'ساوردو',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
                           ),
                         ),
+                        SizedBox(height: 4),
+                        Text(
+                          '${widget.product.price?.toStringAsFixed(2) ?? 34} SAR',
+                          style: TextStyle(fontSize: 16, color: Colors.grey),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: List.generate(
+                        5,
+                        (index) => const Icon(
+                          Icons.star,
+                          color: Colors.amber,
+                          size: 20,
+                        ),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 12),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: const Text(
-                    'خبز الساوردو لدينا يُحضّر من مكونات طبيعية 100%، باستخدام دقيق عضوي نقي...'
-                    'تماماً كما كان يُحضّر منذ مئات السنين 🥖✨',
-                    textAlign: TextAlign.right,
-                    style: TextStyle(fontSize: 14),
-                  ),
+              ),
+              const SizedBox(height: 12),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: const Text(
+                  'خبز الساوردو لدينا يُحضّر من مكونات طبيعية 100%، باستخدام دقيق عضوي نقي...'
+                  'تماماً كما كان يُحضّر منذ مئات السنين 🥖✨',
+                  textAlign: TextAlign.right,
+                  style: TextStyle(fontSize: 14),
                 ),
-                const SizedBox(height: 16),
+              ),
+              const SizedBox(height: 16),
 
-                SectionHeader(
-                  title: 'التعليقات (12)',
-                  actionText: 'مشاهدة الكل',
+              SectionHeader(
+                title: 'التعليقات (12)',
+                actionText: 'home.featured.see_all'.tr(),
+              ),
+              BuildReview(
+                image: 'assets/images/user1.png',
+                name: 'خالد',
+                stars: 4,
+                comment:
+                    'خبز الساوردو من هنا مو بس طازج، بس طعمه ينافس أفضل المحلات! أنصح فيه',
+              ),
+              const SizedBox(height: 12),
+              BuildReview(
+                image: 'assets/images/user2.png',
+                name: 'سارة',
+                stars: 5,
+                comment:
+                    'عجبني قوام خبز الساوردو ممتاز للسندويشات أو مع الشوربة، تجربة رائعة',
+              ),
+              const SizedBox(height: 16),
+              RatingSummary(),
+              const SizedBox(height: 8),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 120),
+                child: CustomButton(
+                  backgroundColor: AppColors.primary,
+                  text: 'اكتب تقييمًا',
+                  onPressed: () {},
                 ),
-                BuildReview(
-                  image: 'assets/images/user1.png',
-                  name: 'خالد',
-                  stars: 4,
-                  comment:
-                      'خبز الساوردو من هنا مو بس طازج، بس طعمه ينافس أفضل المحلات! أنصح فيه',
+              ),
+              SectionHeader(
+                actionText: 'home.featured.see_all'.tr(),
+                title: 'home.similar_products'.tr(),
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children:
+                      isLoading
+                          ? List.generate(
+                            3,
+                            (index) => buildProductCardShimmer(),
+                          )
+                          : similarProducts.map((product) {
+                            return ProductCard(
+                              product: product,
+                              onAddToCart: () => addToCart(product),
+                            );
+                          }).toList(),
                 ),
-                const SizedBox(height: 12),
-                BuildReview(
-                  image: 'assets/images/user2.png',
-                  name: 'سارة',
-                  stars: 5,
-                  comment:
-                      'عجبني قوام خبز الساوردو ممتاز للسندويشات أو مع الشوربة، تجربة رائعة',
-                ),
-                const SizedBox(height: 16),
-                RatingSummary(),
-                const SizedBox(height: 8),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 120),
-                  child: CustomButton(
-                    backgroundColor: AppColors.primary,
-                    text: 'اكتب تقييمًا',
-                    onPressed: () {},
-                  ),
-                ),
-                SectionHeader(
-                  actionText: 'مشاهدة الكل',
-                  title: 'منتجات مشابهة',
-                ),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                    children:
-                        isLoading
-                            ? List.generate(
-                              3,
-                              (index) => buildProductCardShimmer(),
-                            )
-                            : similarProducts.map((product) {
-                              return ProductCard(
-                                product: product,
-                                onAddToCart: () => addToCart(product),
-                              );
-                            }).toList(),
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
-        bottomNavigationBar: Container(
-          height: 70,
-          width: MediaQuery.of(context).size.width,
-          child: CustomButton(
-            backgroundColor: AppColors.primary,
-            text: 'أضف إلى السلة',
-            onPressed: () {
-              addToCart(widget.product);
-            },
-          ),
+      ),
+      bottomNavigationBar: Container(
+        height: 70,
+        width: MediaQuery.of(context).size.width,
+        child: CustomButton(
+          backgroundColor: AppColors.primary,
+          text: 'home.add_to_cart'.tr(),
+          onPressed: () {
+            addToCart(widget.product);
+          },
         ),
       ),
     );

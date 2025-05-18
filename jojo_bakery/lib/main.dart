@@ -1,15 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:jojo_bakery/controller/local_controller.dart';
-import 'package:jojo_bakery/screens/cart_screen.dart';
-import 'package:jojo_bakery/screens/home_screen.dart';
-import 'package:jojo_bakery/screens/main_layout.dart';
-import 'package:jojo_bakery/screens/pay_page.dart';
-import 'package:jojo_bakery/screens/product_detail.dart';
-import 'package:jojo_bakery/screens/profile_screen.dart';
-import 'package:jojo_bakery/screens/signup_screen.dart';
 import 'package:jojo_bakery/screens/splash_screen.dart';
-import 'package:jojo_bakery/screens/waiting_order.dart';
 import 'package:jojo_bakery/theme/app_them.dart';
 import 'dart:ui' as ui;
 

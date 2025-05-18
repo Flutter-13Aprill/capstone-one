@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:jojo_bakery/screens/main_layout.dart';
 import 'package:jojo_bakery/theme/app_colors.dart';
@@ -19,8 +20,8 @@ class _SignupScreenState extends State<SignupScreen> {
   void snackSignup() {
     final snack = SnackBar(
       backgroundColor: AppColors.secondary,
-      content: const Text(
-        'تم انشاء الحساب بنجاح',
+      content: Text(
+        'signup_success'.tr(),
         style: TextStyle(color: AppColors.primary, fontSize: 15),
       ),
     );
@@ -30,8 +31,8 @@ class _SignupScreenState extends State<SignupScreen> {
   void snackSignup1() {
     final snack = SnackBar(
       backgroundColor: AppColors.secondary,
-      content: const Text(
-        'كلمة المرور خاطئه',
+      content: Text(
+        'signup_wrong_password'.tr(),
         style: TextStyle(color: AppColors.primary, fontSize: 15),
       ),
     );
@@ -42,7 +43,7 @@ class _SignupScreenState extends State<SignupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('إنشاء حساب'),
+        title: Text('create_account'.tr()),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios),
           onPressed: () {
@@ -70,7 +71,7 @@ class _SignupScreenState extends State<SignupScreen> {
               TextFormField(
                 controller: usernamecontroller,
                 decoration: InputDecoration(
-                  labelText: 'اسم المستخدم',
+                  labelText: 'username'.tr(),
                   labelStyle: TextStyle(color: AppColors.primary),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(33),
@@ -84,9 +85,9 @@ class _SignupScreenState extends State<SignupScreen> {
 
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'ادخل اسم المستخدم';
+                    return 'enter_username'.tr();
                   } else if (value.length <= 3) {
-                    return 'يجب ان يكون اكثر من ثلاث حروف';
+                    return 'username_min_length'.tr();
                   }
                   return null;
                 },
@@ -95,7 +96,7 @@ class _SignupScreenState extends State<SignupScreen> {
               TextFormField(
                 controller: emailcontroller,
                 decoration: InputDecoration(
-                  labelText: 'البريد الألكتروني',
+                  labelText: 'email'.tr(),
                   labelStyle: TextStyle(color: AppColors.primary),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(33),
@@ -110,11 +111,11 @@ class _SignupScreenState extends State<SignupScreen> {
                 keyboardType: TextInputType.emailAddress,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'ادخل بريدك الالكتروني ';
+                    return 'enter_email'.tr();
                   } else if (!RegExp(
                     r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",
                   ).hasMatch(value)) {
-                    return 'البريد الالكتروني غير صحيح';
+                    return 'invalid_email'.tr();
                   }
                   return null;
                 },
@@ -125,7 +126,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 controller: passwordcontroller,
                 obscureText: true,
                 decoration: InputDecoration(
-                  labelText: 'كلمة المرور',
+                  labelText: 'password'.tr(),
                   labelStyle: TextStyle(color: AppColors.primary),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(33),
@@ -141,11 +142,11 @@ class _SignupScreenState extends State<SignupScreen> {
                     r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$',
                   );
                   if (value == null || value.isEmpty) {
-                    return 'ادخل كلمة مرور صحيحه';
+                    return 'enter_valid_password'.tr();
                   } else if (value.length < 8) {
-                    return 'يجب ان تكون كلمة المروور اكثر من ثمانية احرف';
+                    return 'password_min_length'.tr();
                   } else if (!regex.hasMatch(value)) {
-                    return ("كلمة المرور يجب أن تحتوي على حرف كبير، حرف صغير، رقم، وحرف خاص (مثل @، #، !، %). ");
+                    return ("password_requirements".tr());
                   }
                   return null;
                 },
@@ -156,7 +157,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 obscureText: true,
                 controller: passwordconfirm,
                 decoration: InputDecoration(
-                  labelText: 'تأكيد كلمة المرور',
+                  labelText: 'confirm_password'.tr(),
                   labelStyle: TextStyle(color: AppColors.primary),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(33),
@@ -169,9 +170,9 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'يرجى تأكيد كلمة المرور';
+                    return 'confirm_password_hint'.tr();
                   } else if (value != passwordcontroller.text) {
-                    return 'كلمة المرور غير متطابقة';
+                    return 'password_mismatch'.tr();
                   }
                   return null;
                 },
@@ -199,7 +200,10 @@ class _SignupScreenState extends State<SignupScreen> {
                   }
                 },
 
-                child: Text('اشتراك', style: TextStyle(color: AppColors.white)),
+                child: Text(
+                  'signup'.tr(),
+                  style: TextStyle(color: AppColors.white),
+                ),
               ),
             ],
           ),
