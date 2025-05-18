@@ -29,24 +29,24 @@ While currently focused on delivering a seamless mobile experience across Androi
 
 ## Application Screens
 
-| Authentication          | Main Views                      | Project Management          | Utility & Settings        |
-| :---------------------- | :------------------------------ | :-------------------------- | :------------------------ |
-| Login                   | Home View                       | Project Details             | Alert Dialog              |
-| Sign Up                 | Home View (Shimmer)             | Project View                | Setting View              |
-|                         | Home View (Dark Mode)           | Create New Project          | Language View             |
-|                         |                                 |                             | Change Language           |
-|                         |                                 |                             | About View                |
+| Authentication          | Main Views          | Project Management          | Utility & Settings        |
+| :---------------------- | :------------------ | :-------------------------- | :------------------------ |
+| Login                   | Home View           | Project Details             | Alert Dialog              |
+| Sign Up                 | Home View (Shimmer) | Project View                | Setting View              |
+|                         |                     | Create New Project          | Language View             |
+|                         |                     |                             | Change Language           |
+|                         |                     |                             | About View                |
 | <img src="preview/login.jpeg" height="150"> | <img src="preview/home_view.jpeg" height="150"> | <img src="preview/project_details.jpeg" height="150"> | <img src="preview/alert_dialog.jpeg" height="150"> |
 | <img src="preview/sign_up.jpeg" height="150"> | <img src="preview/home_view_shimmer.jpeg" height="150"> | <img src="preview/project_view.jpeg" height="150"> | <img src="preview/setting_view.jpeg" height="150"> |
-|                         | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> |
-|                         |                                 |                             | <img src="preview/change_langauge.jpeg" height="150"> |
-|                         |                                 |                             | <img src="preview/about_view.jpeg" height="150"> |
+|                         |                     | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> |
+|                         |                     |                             | <img src="preview/change_langauge.jpeg" height="150"> |
+|                         |                     |                             | <img src="preview/about_view.jpeg" height="150"> |
 
-## Dark Mode Toggle
+## Dark Mode Features
 
-| Dark Mode Toggle |
-| :--------------- |
-| <img src="preview/darkmode.jpeg" height="150"> |
+| Dark Mode Toggle        | Home View (Dark Mode)           | Profile (Dark)                | Project (Dark)                |
+| :---------------------- | :------------------------------ | :---------------------------- | :---------------------------- |
+| <img src="preview/darkmode.jpeg" height="150"> | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/profile_dark.jpeg" height="150"> | <img src="preview/project_dark.jpeg" height="150"> |
 
 ## 🎨 Figma UI Design
 
