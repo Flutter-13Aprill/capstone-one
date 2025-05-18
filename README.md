@@ -1,77 +1,78 @@
-# capstone one
+# 📲 Receipt OCR & Warranty Tracker App
 
-
-## 📝 Overview
-
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
-
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+A Flutter-based mobile application designed to **scan**, **analyze**, and **organize** purchase receipts. Users can upload an image or PDF of a receipt, and the app extracts key fields using the **Mindee OCR API**. After extraction, the data is displayed in editable form fields, and can be converted into a **QR code** for future use.
 
 ---
 
-## ✅ Mandatory Requirements
+## 🌟 Features
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
-
-## 📌 Guidelines
-
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
+- 📤 Upload receipt from:
+  - Camera
+  - Gallery
+  - Files (PDF/image)
+- 🧠 Extracts data using **Mindee API**:
+  - Store Name
+  - Receipt Number
+  - Total, Net, Tax
+  - Phone Number
+  - Date & Time
+  - Category & Subcategory
+- 📝 Pre-filled editable fields using `TextEditingController`
+- 🔄 Converts the receipt data into a **QR Code**
+- 🌐 **Supports both Arabic and English languages**
+- 📂 Keeps track of warranty durations and receipt info
 
 ---
 
-## 📤 Submission Requirements
+## 📦 Packages Used
 
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
-
-### 🧾 README File (Documentation)
-Your `README.md` should include:
-
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
-
----
-
-## 🧰 Resources
-
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
+| Package              | Description                              |
+|----------------------|------------------------------------------|
+| `image_picker`       | Select image from camera or gallery      |
+| `http`               | Send API requests to Mindee              |
+| `shimmer`            | Skeleton loaders while loading data      |
+| `google_fonts`       | Stylish fonts with `GoogleFonts`         |
+| `flutter_svg`        | Render SVG images in UI                  |
+| `smooth_page_indicator` | Onboarding indicator UI              |
+| `pinput`             | Beautiful PIN input for auth             |
+| `easy_localization`  | **Arabic & English** language support    |
+| `qr_flutter`         | Generate QR codes from receipt data      |
 
 ---
 
-## ⏰ Deadline
+## 🧠 How It Works
 
-**Submit your project by May 18, before 10:00 AM.**
+1. **Upload Receipt**  
+   The user uploads a receipt image or PDF.
+
+2. **OCR Analysis**  
+   The file is sent to the **Mindee OCR API**. It returns structured receipt data in JSON format.
+
+3. **Auto-fill Form**  
+   The JSON is parsed into a `ReceiptModel`, and values are auto-populated into the `CustomTextFormField`.
+
+4. **QR Code Generation**  
+   Extracted data is converted into a string and turned into a **QR code**. This allows the user to re-access receipt details later with ease.
 
 ---
+## 🛠 Setup
+- git clone https://github.com/your-repo/receipt-ocr-app.git
+- cd receipt-ocr-app
+- flutter pub get
+- flutter run
+---
+## 🗒️ Notes
+✅ Works with Arabic receipts (right-to-left) and English
 
-## ✨ Final Note
+✅ Fully editable fields after scanning
 
-> "Good luck, and have fun creating your app!" 🎨📱
+✅ QR code generation for easy retrieval
+
+✅ Multi-language support using easy_localization
+
+❗ Internet connection is required for OCR API
+---
+## Author
+- Name:Wafa Alsibyani
+- Github: https://github.com/Wafaa-20/capstone-one.git
 
