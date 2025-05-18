@@ -26,8 +26,8 @@ Run the app: You can launch the app using: flutter run
 Note: You need a working emulator or a connected real device
 
 
- ## 📱 Demo CV App Design Overview
+ ## 📱 ScreenShout CV App Design Overview
  
 
-![alt text](ScreenShout/Demo.mp4)
+![alt text](ScreenShout/image1.png)
 
