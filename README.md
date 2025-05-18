@@ -11,7 +11,7 @@
 ---
 ### 🔍 Project Preview
 
-<img src="page_preview.gif" alt="Preview" width="350">
+<img src="page_preview.gif" alt="Preview" width="300">
 <!-- <img src="page_preview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" /> -->
 
 
