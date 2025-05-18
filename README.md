@@ -97,27 +97,16 @@ _(https://www.figma.com/design/8CO4zhd59yzN0ucV267SWf/Taskcy---Task-Tracker-App-
 - **Dark Mode:** Alternative darker theme for user preference and reduced eye strain in low-light environments
 - **Theme Switching:** Seamless transition between light and dark modes
 - **Persistence:** Remembering the user's preferred theme across app sessions
+
 ## Packages Used
 
 This project leverages the following Flutter packages to enhance its functionality and user experience:
 
-- **percent_indicator:** (`^version`) - For displaying progress in a visually appealing circular or linear format.
-- **intl:** (`^version`) - Provides internationalization and localization facilities, including date/time, number, and message formatting.
-- **easy_localization:** (`^version`) - Simplifies the process of adding and managing translations for multiple languages within the Flutter app.
-- **flutter_blurhash:** (`^version`) - Used to display a blurred placeholder image while the actual image is loading, improving perceived loading times.
-- **pie_chart:** (`^version`) - Enables the creation of interactive and customizable pie charts for data visualization.
-- **shimmer:** (`^version`) - Implements a shimmering effect as a visual placeholder during loading states, enhancing the user's perception of performance.
-
-**Note:** Please replace `^version` with the actual versions of these packages used in your `pubspec.yaml` file. For example:
-
-```markdown
-## Packages Used
-
-This project leverages the following Flutter packages to enhance its functionality and user experience:
-
-- **percent_indicator:** (`^4.2.3`) - For displaying progress in a visually appealing circular or linear format.
+- **curved_navigation_bar:** (`^1.0.6`) - Provides a visually appealing and customizable curved bottom navigation bar.
+- **easy_localization:** (`^3.0.7+1`) - Simplifies the process of adding and managing translations for multiple languages within the Flutter app.
+- **flutter_blurhash:** (`^0.9.1`) - Used to display a blurred placeholder image while the actual image is loading, improving perceived loading times.
 - **intl:** (`^0.19.0`) - Provides internationalization and localization facilities, including date/time, number, and message formatting.
-- **easy_localization:** (`^3.2.0`) - Simplifies the process of adding and managing translations for multiple languages within the Flutter app.
-- **flutter_blurhash:** (`^2.0.1`) - Used to display a blurred placeholder image while the actual image is loading, improving perceived loading times.
+- **percent_indicator:** (`^4.2.5`) - For displaying progress in a visually appealing circular or linear format.
 - **pie_chart:** (`^5.4.0`) - Enables the creation of interactive and customizable pie charts for data visualization.
+- **pie_chart_sz:** (`^1.1.1`) - An additional package that likely provides further customization or specific implementations for pie charts.
 - **shimmer:** (`^3.0.0`) - Implements a shimmering effect as a visual placeholder during loading states, enhancing the user's perception of performance.
