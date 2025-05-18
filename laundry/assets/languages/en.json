@@ -1,0 +1,35 @@
+{
+  "home": {
+    "greeting": "Hello,\n Shatha",
+    "search_label": "Search about a laundry",
+    "highest_reviews": "Highest reviews",
+    "all_laundries": "All Laundries",
+    "laundries": {
+      "narjis": {
+        "name": "An Narjis Laundry",
+        "description": "Reliable washing and ironing services",
+        "time": "Open now",
+        "distance": "7km"
+      },
+      "aljabr": {
+        "name": "Aljabr Laundry",
+        "description": "Reliable washing and ironing services",
+        "time": "Open now",
+        "distance": "10km"
+      },
+      "falak": {
+        "name": "Falak Laundry",
+        "description": "Reliable washing and ironing services",
+        "time": "Open now",
+        "distance": "3km"
+      },
+      "alawal": {
+        "name": "Alawal Laundry",
+        "description": "laundry dis",
+        "time": "Open now",
+        "distance": "10km"
+      }
+    },
+    "rating": "5.0"
+  }
+}

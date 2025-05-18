@@ -1,0 +1,35 @@
+{
+  "home": {
+    "greeting": "مرحباً،\n شذا",
+    "search_label": "ابحث عن مغسلة",
+    "highest_reviews": "أعلى التقييمات",
+    "all_laundries": "جميع المغاسل",
+    "laundries": {
+      "narjis": {
+        "name": "مغسلة النرجس",
+        "description": "خدمات غسيل وكوي موثوقة",
+        "time": "مفتوح الآن",
+        "distance": "٧ كم"
+      },
+      "aljabr": {
+        "name": "مغسلة الجبر",
+        "description": "خدمات غسيل وكوي موثوقة",
+        "time": "مفتوح الآن",
+        "distance": "١٠ كم"
+      },
+      "falak": {
+        "name": "مغسلة فلك",
+        "description": "خدمات غسيل وكوي موثوقة",
+        "time": "مفتوح الآن",
+        "distance": "٣ كم"
+      },
+      "alawal": {
+        "name": "مغسلة الأول",
+        "description": "وصف المغسلة",
+        "time": "مفتوح الآن",
+        "distance": "١٠ كم"
+      }
+    },
+    "rating": "٥.٠"
+  }
+}
