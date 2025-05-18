@@ -21,18 +21,32 @@ While currently focused on delivering a seamless mobile experience across Androi
 
 
 ## 📱 Screenshots
-## Discover
+## Discover Flow
 
-| splash                                  | Discover                                    | onbording1                                      | onbording2                                      | onbording3                                      |
+| Splash                                  | Discover                                    | Onboarding 1                                      | Onboarding 2                                      | Onboarding 3                                      |
 | :-------------------------------------- | :------------------------------------------ | :---------------------------------------------- | :---------------------------------------------- | :---------------------------------------------- |
 | <img src="preview/splash.jpeg" height="150"> | <img src="preview/walcome.jpeg" height="150"> | <img src="preview/onbording1.jpeg" height="150"> | <img src="preview/onbording2.jpeg" height="150"> | <img src="preview/onbording3.jpeg" height="150"> |
 
-## application
+## Application Screens
 
-| login                                   | sign_up                                     | home_view                                     | home_view_shimmer                             | project_details                                 | project_view                                  | create_new_project                            | AlertDialog                                   | setting_view                                  | darkmode                                    | home_view_dar_kmode                           | langauge_view                                 | change_langauge                               | about_view                                    |
-| :-------------------------------------- | :------------------------------------------ | :-------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- | :-------------------------------------------- | :------------------------------------------ | :-------------------------------------------- | :---------------------------------------------- | :---------------------------------------------- | :-------------------------------------------- |
-| <img src="preview/login.jpeg" height="150"> | <img src="preview/sign_up.jpeg" height="150"> | <img src="preview/home_view.jpeg" height="150"> | <img src="preview/home_view_shimmer.jpeg" height="150"> | <img src="preview/project_details.jpeg" height="150"> | <img src="preview/project_view.jpeg" height="150"> | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/alert_dialog.jpeg" height="150"> | <img src="preview/setting_view.jpeg" height="150"> | <img src="preview/darkmode.jpeg" height="150"> | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> | <img src="preview/change_langauge.jpeg" height="150"> | <img src="preview/about_view.jpeg" height="150"> |
+| Authentication          | Main Views                      | Project Management          | Utility & Settings        |
+| :---------------------- | :------------------------------ | :-------------------------- | :------------------------ |
+| Login                   | Home View                       | Project Details             | Alert Dialog              |
+| Sign Up                 | Home View (Shimmer)             | Project View                | Setting View              |
+|                         | Home View (Dark Mode)           | Create New Project          | Language View             |
+|                         |                                 |                             | Change Language           |
+|                         |                                 |                             | About View                |
+| <img src="preview/login.jpeg" height="150"> | <img src="preview/home_view.jpeg" height="150"> | <img src="preview/project_details.jpeg" height="150"> | <img src="preview/alert_dialog.jpeg" height="150"> |
+| <img src="preview/sign_up.jpeg" height="150"> | <img src="preview/home_view_shimmer.jpeg" height="150"> | <img src="preview/project_view.jpeg" height="150"> | <img src="preview/setting_view.jpeg" height="150"> |
+|                         | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> |
+|                         |                                 |                             | <img src="preview/change_langauge.jpeg" height="150"> |
+|                         |                                 |                             | <img src="preview/about_view.jpeg" height="150"> |
 
+## Dark Mode Toggle
+
+| Dark Mode Toggle |
+| :--------------- |
+| <img src="preview/darkmode.jpeg" height="150"> |
 
 ## 🎨 Figma UI Design
 
