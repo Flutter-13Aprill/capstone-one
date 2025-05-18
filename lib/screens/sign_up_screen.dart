@@ -4,7 +4,6 @@ import 'package:spotify_redesign/screens/login.dart';
 import 'package:spotify_redesign/widgets/entry_widgets/entry_text_button.dart';
 import 'package:spotify_redesign/widgets/entry_widgets/sso_container.dart';
 
-
 final _formKey = GlobalKey<FormState>();
 
 class SignUpScreen extends StatefulWidget {
@@ -79,7 +78,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: TextFormField(
-                    controller: userNameController,
+                    controller: emailController,
                     decoration: InputDecoration(
                       hintText: "Email",
                       border: OutlineInputBorder(
@@ -92,7 +91,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           RegExp(
                             r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+",
                           )) {
-                        return "Email";
+                        return "Invalid Email";
                       }
                       return null;
                     },
@@ -104,7 +103,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: TextFormField(
-                    controller: userNameController,
+                    controller: passwordController,
                     decoration: InputDecoration(
                       hintText: "Password",
                       border: OutlineInputBorder(
@@ -126,7 +125,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: TextFormField(
-                    controller: userNameController,
+                    controller: repeatPasswordController,
                     decoration: InputDecoration(
                       hintText: "Repeat Password",
                       border: OutlineInputBorder(
@@ -135,8 +134,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                     ),
                     validator: (value) {
-                      if (value!.length < 3) {
-                        return "Inavlid Password";
+                      if (value!.length < 3 ||
+                          repeatPasswordController.value !=
+                              passwordController.value) {
+                        return "Make sure the password is the same";
                       }
                       return null;
                     },
@@ -164,30 +165,29 @@ class _SignUpScreenState extends State<SignUpScreen> {
           ),
 
           InkWell(
-      onTap: () {
-        if (_formKey.currentState!.validate()) {
+            onTap: () {
+              if (_formKey.currentState!.validate()) {
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(builder: (context) => HomeScreen()),
                 );
               }
-      
-      },
-      child: Container(
-        width: 340,
-        height: 70,
-        decoration: BoxDecoration(
-          color: Colors.green,
-          borderRadius: BorderRadius.circular(80),
-        ),
-        child: Center(
-          child: Text(
-            "Sign Up",
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            },
+            child: Container(
+              width: 340,
+              height: 70,
+              decoration: BoxDecoration(
+                color: Colors.green,
+                borderRadius: BorderRadius.circular(80),
+              ),
+              child: Center(
+                child: Text(
+                  "Sign Up",
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
           ),
-        ),
-      ),
-    ),
 
           Stack(
             alignment: Alignment.center,

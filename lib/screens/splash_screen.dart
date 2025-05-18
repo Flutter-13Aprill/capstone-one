@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_redesign/screens/login.dart';
+import 'package:spotify_redesign/screens/onboarding_screen.dart';
 
 // "SplashScreen" where the logo is displayed for a couple of seconds then navigate to the "OnBoarding" screen
 class SplashScreen extends StatefulWidget {
@@ -15,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => LoginScreen()),
+        MaterialPageRoute(builder: (context) => OnBoardingScreen()),
       );
     });
     super.initState();

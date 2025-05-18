@@ -22,7 +22,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
           icon: Icon(Icons.arrow_circle_left_outlined, color: Colors.white),
         ),
         centerTitle: true,
-        title: Text("Settings".tr(), style: TextStyle(color: Colors.white)).tr(),
+        title:
+            Text("Settings".tr(), style: TextStyle(color: Colors.white)).tr(),
       ),
 
       body: Center(
@@ -33,24 +34,55 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           child: SizedBox(
             width: 250,
-            height: 60,
+            height: 135,
             child: Column(
               children: [
                 InkWell(
                   onTap: () {
                     if (context.locale.languageCode == "ar") {
                       context.setLocale(Locale("en"));
-                      print("1");
                       return;
                     } else {
                       context.setLocale(Locale("ar"));
-                      print("2");
                       return;
                     }
                   },
                   child: ListTile(
                     leading: Icon(Icons.language),
                     title: Text("Change Language").tr(),
+                  ),
+                ),
+                Divider(color: Colors.black,),
+                InkWell(
+                  onTap: () {
+                    showDialog(
+                      context: context,
+                      builder: (context) {
+                        return Dialog(
+                          child: Container(
+                            width: 150,
+                            height: 150,
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                TextButton(
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Text("Press to Close"),
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  },
+                  child: ListTile(
+                    leading: Icon(Icons.exit_to_app),
+                    title: Text("Logout").tr(),
                   ),
                 ),
               ],
