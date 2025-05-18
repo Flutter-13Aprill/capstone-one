@@ -1,0 +1,53 @@
+{
+  "home": {
+    "header": "Let’s make a\nhabits together  🙌"
+  },
+  "project": {
+    "titleView": "Projects",
+    "search": "search in task or file"
+  },
+  "profile": {
+    "r1": "My Projects",
+    "r2": "Join a Team",
+    "r3": "My Task",
+    "logout": "Logout"
+  },
+  "about": {
+    "title": "About Applaction",
+    "t1": "Project Flow",
+    "t2": "Project Flow is a powerful and intuitive Flutter-based mobile application designed to empower individuals and teams to manage their projects efficiently and professionally. The app offers a comprehensive environment that helps organize workflows, effectively distribute tasks, and track progress on every project from start to finish, right from your mobile device.While currently focused on delivering a seamless mobile experience across Android and iOS, the project is built with future development in mind, including potential support for the web platform."
+  },
+  "setting": {
+    "t1": "Dark Mood",
+    "t2": "Security",
+    "t3": "Help",
+    "t4": "Langauge",
+    "t5": "About Application"
+  },
+  "langauge": {
+    "title": "Langauge",
+    "t1": "Arabic",
+    "t2": "English"
+  },
+  "onBording": {
+    "v1": {
+      "projectName": "Project Flow",
+      "t1": "Building Better\nWorkplaces",
+      "t2": "Create a unique emotional story that\ndescribes better than words",
+      "t3": "Get Started"
+    },
+    "v2": {
+      "t1": "Task Management",
+      "t2": "Let's create a\nspace for your\nworkflows.",
+      "t3": "Get Started"
+    },
+    "v3": {
+      "t1": "Task Management",
+      "t2": "Work more\nStructured and\nOrganized 👌"
+    },
+    "v4": {
+      "t1": "Task Management",
+      "t2": "Manage your\nTasks quickly for\nResults✌"
+    }
+  }
+}

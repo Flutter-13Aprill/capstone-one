@@ -1,77 +1,112 @@
-# capstone one
 
+## Project Flow
 
-## 📝 Overview
+ is a powerful and intuitive **Flutter-based mobile application** designed to empower individuals and teams to manage their projects efficiently and professionally. The app offers a comprehensive environment that helps organize workflows, effectively distribute tasks, and track progress on every project from start to finish, right from your mobile device.
 
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
+While currently focused on delivering a seamless mobile experience across Android and iOS, the project is built with future development in mind, including potential support for the web platform.
+## Key Features
 
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
-
----
-
-## ✅ Mandatory Requirements
-
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
-| 🔹 Themes | Apply light/dark themes or custom colors throughout the app. |
-| 🔹 Form Validation | Validate user input in login, signup, or any form fields. |
-| 🔹 Localization | Support multiple languages for a global user experience. |
----
-
-## 📌 Guidelines
-
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
+* **Create Multiple Projects:** Easily start your projects and customize them to fit your needs.
+* **Project Structuring:** Break down projects into key stages and organized sub-tasks.
+* **Team Management:** Build a team for your project and invite members to join.
+* **Task Assignment:** Clearly assign tasks to specific team members with defined due dates and priorities.
+* **Progress Tracking:** Monitor the progress of tasks and stages at a glance, and see the status of each task (in progress, completed, overdue, etc.).
+* **Simple User Interface:** Clear and easy-to-use design ensures a pleasant and productive experience on mobile.
 
 ---
+## 🎥 App Preview
 
-## 📤 Submission Requirements
+![App Preview](preview/preview.gif)
 
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
 
-### 🧾 README File (Documentation)
-Your `README.md` should include:
 
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
+## 📱 Screenshots
+## Discover Flow
+
+| Splash                                  | Discover                                    | Onboarding 1                                      | Onboarding 2                                      | Onboarding 3                                      |
+| :-------------------------------------- | :------------------------------------------ | :---------------------------------------------- | :---------------------------------------------- | :---------------------------------------------- |
+| <img src="preview/splash.jpeg" height="150"> | <img src="preview/walcome.jpeg" height="150"> | <img src="preview/onbording1.jpeg" height="150"> | <img src="preview/onbording2.jpeg" height="150"> | <img src="preview/onbording3.jpeg" height="150"> |
+
+## Application Screens
+
+| Authentication          | Main Views          | Project Management          | Utility & Settings        |
+| :---------------------- | :------------------ | :-------------------------- | :------------------------ |
+| Login                   | Home View           | Project Details             | Alert Dialog              |
+| Sign Up                 | Home View (Shimmer) | Project View                | Setting View              |
+|                         |                     | Create New Project          | Language View             |
+|                         |                     |                             | Change Language           |
+|                         |                     |                             | About View                |
+| <img src="preview/login.jpeg" height="150"> | <img src="preview/home_view.jpeg" height="150"> | <img src="preview/project_details.jpeg" height="150"> | <img src="preview/alert_dialog.jpeg" height="150"> |
+| <img src="preview/sign_up.jpeg" height="150"> | <img src="preview/home_view_shimmer.jpeg" height="150"> | <img src="preview/project_view.jpeg" height="150"> | <img src="preview/setting_view.jpeg" height="150"> |
+|                         |                     | <img src="preview/create_new_project.jpeg" height="150"> | <img src="preview/langauge_view.jpeg" height="150"> |
+|                         |                     |                             | <img src="preview/change_langauge.jpeg" height="150"> |
+|                         |                     |                             | <img src="preview/about_view.jpeg" height="150"> |
+
+## Dark Mode Features
+
+| Dark Mode Toggle        | Home View (Dark Mode)           | Profile (Dark)                | Project (Dark)                |
+| :---------------------- | :------------------------------ | :---------------------------- | :---------------------------- |
+| <img src="preview/darkmode.jpeg" height="150"> | <img src="preview/home_view_darkmode.jpeg" height="150"> | <img src="preview/profile_dark.jpeg" height="150"> | <img src="preview/project_dark.jpeg" height="150"> |
+
+## 🎨 Figma UI Design
+
+Reference the official design file below:
+
+🔗 [Figma Design](#)  
+_(https://www.figma.com/design/8CO4zhd59yzN0ucV267SWf/Taskcy---Task-Tracker-App--Community-?node-id=2-79642&t=Aj63IzmfBN0nHgZB-0)_
 
 ---
+## Features
 
-## 🧰 Resources
+- **Architectural Pattern:** MVC (Model-View-Controller)
+- **Code Efficiency:** Reusable Components
 
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
+### 1️⃣ Bottom Navigation Bar
 
----
+- **Core Tabs:** Discover, Library, Profile
+- **Navigation:** Smooth animated transitions using `PageRouteBuilder`
+- **Visual Feedback:** Active tab visually highlighted
 
-## ⏰ Deadline
+### 2️⃣ Shimmer Effect (Loading UI)
 
-**Submit your project by May 18, before 10:00 AM.**
+- **Placeholders for:**
+  - Podcast Thumbnails
+  - User Profile Avatar
+- **Package:** Utilizes `shimmer` package (`^3.0.0`) for enhanced perceived performance
 
----
+### 3️⃣ Dialogs and Bottom Sheets
 
-## ✨ Final Note
+- **Logout Confirmation:** `AlertDialog` with clean UI
+- **Consistent Styling:** Unified UI styling across dialogs and bottom sheets
 
-> "Good luck, and have fun creating your app!" 🎨📱
+### 4️⃣ Authentication
 
+- **User Login:** Secure user authentication flow
+- **User Sign-Up:** Intuitive user registration process
+- **State Management:** Implementation for managing authentication state
+
+### 5️⃣ Language Management
+
+- **Language Selection:** Option for users to choose their preferred language
+- **Localization:** Implementation using `flutter_localizations` and `intl` for supporting multiple languages
+- **Dynamic Updates:** App UI updates dynamically upon language change
+
+### 6️⃣ Theme Management
+
+- **Light Mode:** Default clean and bright user interface
+- **Dark Mode:** Alternative darker theme for user preference and reduced eye strain in low-light environments
+- **Theme Switching:** Seamless transition between light and dark modes
+- **Persistence:** Remembering the user's preferred theme across app sessions
+
+## Packages Used
+
+This project leverages the following Flutter packages to enhance its functionality and user experience:
+
+- **curved_navigation_bar:** (`^1.0.6`) - Provides a visually appealing and customizable curved bottom navigation bar.
+- **easy_localization:** (`^3.0.7+1`) - Simplifies the process of adding and managing translations for multiple languages within the Flutter app.
+- **flutter_blurhash:** (`^0.9.1`) - Used to display a blurred placeholder image while the actual image is loading, improving perceived loading times.
+- **intl:** (`^0.19.0`) - Provides internationalization and localization facilities, including date/time, number, and message formatting.
+- **percent_indicator:** (`^4.2.5`) - For displaying progress in a visually appealing circular or linear format.
+- **pie_chart:** (`^5.4.0`) - Enables the creation of interactive and customizable pie charts for data visualization.
+- **pie_chart_sz:** (`^1.1.1`) - An additional package that likely provides further customization or specific implementations for pie charts.
+- **shimmer:** (`^3.0.0`) - Implements a shimmering effect as a visual placeholder during loading states, enhancing the user's perception of performance.
