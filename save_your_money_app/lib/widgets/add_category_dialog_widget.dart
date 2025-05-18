@@ -25,7 +25,9 @@ class AddCategoryDialogWidget extends StatelessWidget {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       title: Text(
         "add_new_category".tr(),
-        style: Theme.of(context).textTheme.bodyLarge,
+        style: Theme.of(
+          context,
+        ).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),
       ),
       content: SizedBox(
         height: context.getHeight(0.15),
@@ -81,7 +83,9 @@ class AddCategoryDialogWidget extends StatelessWidget {
           onPressed: onCancel,
           child: Text(
             "cancel".tr(),
-            style: Theme.of(context).textTheme.bodyLarge,
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),
           ),
         ),
         ElevatedButton(
@@ -89,7 +93,12 @@ class AddCategoryDialogWidget extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             backgroundColor: Theme.of(context).primaryColor,
           ),
-          child: Text("add".tr(), style: Theme.of(context).textTheme.bodyLarge),
+          child: Text(
+            "add".tr(),
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),
+          ),
         ),
       ],
     );
