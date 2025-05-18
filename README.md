@@ -38,7 +38,8 @@
 - **CircleAvatar**  
 - **Column**  
 - **Container**  
-- **TextField**  
+- **TextFormField**  
+- **Form**  
 - **Expanded**  
 - **Icon**  
 - **IconButton**  
@@ -56,8 +57,6 @@
 - **SizedBox**  
 - **SmoothPageIndicator**  
 - **Stack**  
-- **TabBar**  
-- **TabBarView**  
 - **Text**  
 
 
